@@ -1,18 +1,32 @@
 ## 讲义&笔记
 
-0. lesson 00
-    1. [intro](lesson00/1.intro.html)，[pdf](lesson00/00.1-intro.pdf)
-    2. [level](lesson00/2.level.html)，[pdf](lesson00/00.2-level.pdf)
-    3. [pts](lesson00/3.pts.html)，[pdf](lesson00/00.3-pts.pdf)
-    4. [method](lesson00/4.method.html)，[pdf](lesson00/00.4-method.pdf)
-    5. [resource](lesson00/5.resource.html)，[pdf](lesson00/00.5-resource.pdf)
-    6. [tong11](lesson00/6.tong11.html)，[pdf](lesson00/00.6-tong11.pdf)
-1. lesson 01
-    1. [devcpp](lesson01/1.devcpp.html)，[pdf](lesson01/00.1-devcpp.pdf)
-    2. [challenge](lesson01/2.challenge.html)，[pdf](lesson01/00.2-challenge.pdf)
-2. lesson 02
-    1. [program](lesson02/1.program.html)，[pdf](lesson02/00.1-program.pdf)
-    2. [challenge](lesson02/2.challenge.html)，[pdf](lesson02/00.2-challenge.pdf)
+
+<table>
+  <tr><th>序号</th><th>课程</th><th>讲义</th></tr>
+  <tr><td>0</td><td>lession 00</td>
+    <td>
+      <a href='lesson00/1.intro.html'>1.intro</a>/<a href='lesson00/00.1-intro.pdf'></a>，
+      <a href='lesson00/2.level.html'>2.level</a>/<a href='lesson00/00.2-level.pdf'></a>，
+      <a href='lesson00/3.pts.html'>3.pts</a>/<a href='lesson00/00.3-pts.pdf'>PDF</a>，
+      <a href='lesson00/4.method.html'>4.method</a>/<a href='lesson00/00.4-method.pdf'>PDF</a>，
+      <a href='lesson00/5.resource.html'>5.resource</a>/<a href='lesson00/00.5-resource.pdf'>PDF</a>，
+      <a href='lesson00/6.tong11.html'>6.tong11</a>/<a href='lesson00/00.6-tong11.pdf'>PDF</a>
+    </td>
+  </tr>
+  <tr><td>1</td><td>lession 01</td>
+    <td>
+      <a href='lesson01/1.devcpp.html'>1.devcpp</a>/<a href='lesson01/00.1-devcpp.pdf'>PDF</a>，
+      <a href='lesson01/2.challenge.html'>2.challenge</a>/<a href='lesson01/00.2-challenge.pdf'>PDF</a>
+    </td>
+  </tr>
+  <tr><td>2</td><td>lession 02</td>
+    <td>
+      <a href='lesson02/1.program.html'>1.program</a>/<a href='lesson02/00.1-program.pdf'>PDF</a>，
+      <a href='lesson02/2.challenge.html'>2.challenge</a>/<a href='lesson02/00.2-challenge.pdf'>PDF</a>
+    </td>
+  </tr>
+</table>
+
 
 
     
