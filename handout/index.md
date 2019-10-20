@@ -5,9 +5,11 @@
     4. [method](lesson00/4.method.html)，[pdf](lesson00/00.4-method.pdf)
     5. [resource](lesson00/5.resource.html)，[pdf](lesson00/00.5-resource.pdf)
     6. [tong11](lesson00/6.tong11.html)，[pdf](lesson00/00.6-tong11.pdf)
-    7. [organ](lesson00/7.organ.html)，[pdf](lesson00/00.7-organ.pdf)
 1. lesson 01
+    1. [devcpp](lesson01/1.devcpp.html)，[pdf](lesson01/00.1-devcpp.pdf)
+    2. [challenge](lesson01/2.challenge.html)，[pdf](lesson01/00.2-challenge.pdf)
 2. lesson 02
-3. lesson 03
+    1. [program](lesson01/1.program.html)，[pdf](lesson01/00.1-program.pdf)
+    2. [challenge](lesson01/2.challenge.html)，[pdf](lesson01/00.2-challenge.pdf)
 
 
