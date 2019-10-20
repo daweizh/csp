@@ -1,5 +1,3 @@
-# CSP
-
 学习C++语言的游戏小程序[arith](game/arith.rar)。
 
 还为大家准备了[NOIP历年真题及数据](race/)。
