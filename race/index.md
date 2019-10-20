@@ -2,13 +2,8 @@
 
 <table>
   <tr>
-    <th>年份</th>
-    <th>初赛</th>
-    <th>复赛</th>
-    <th>数据1</th>
-    <th>数据2</th>
-    <th>数据3</th>
-    <th>数据4</th>
+    <th>年份</th><th>初赛</th><th>复赛</th><th>数据1</th>
+    <th>数据2</th><th>数据3</th><th>数据4</th>
   </tr>
   <tr>
     <td>2018</td>
@@ -26,16 +21,8 @@
 
 <table>
   <tr>
-    <th>年份</th>
-    <th>初赛</th>
-    <th>Day1</th>
-    <th>数据1</th>
-    <th>数据2</th>
-    <th>数据3</th>
-    <th>Day2</th>
-    <th>数据1</th>
-    <th>数据2</th>
-    <th>数据3</th>
+    <th>年份</th><th>初赛</th><th>Day1</th><th>数据1</th><th>数据2</th>
+    <th>数据3</th><th>Day2</th><th>数据1</th><th>数据2</th><th>数据3</th>
   </tr>
   <tr>
     <td>2018</td>
