@@ -2,7 +2,7 @@
 
 <table>
   <tr><th>课程</th><th>视频</th></tr>
-  <tr><td>lesson 00</td><td style="align:left;">
+  <tr><td>lesson 00</td><td style="text-align:left;">
       <a href='lesson00/lesson00-01.mp4' target='_blank'>01</a>,
       <a href='lesson00/lesson00-02.mp4' target='_blank'>02</a>,
       <a href='lesson00/lesson00-03.mp4' target='_blank'>03</a>,
