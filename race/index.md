@@ -12,12 +12,12 @@
   </tr>
   <tr>
     <td>2018</td>
-    <td><a href='2018/NOIP2018-1.pdf'>√</a></td>
-    <td><a href='2018/NOIP2018-2.pdf'>√</a></td>
-    <td><a href='1.title.rar'>title</a></td>
-    <td><a href='2.fight.rar'>fight</a></td>
-    <td><a href='3.bus.rar'>bus</a></td>
-    <td><a href='4.tree.rar'>tree</a></td>
+    <td><a href='2018/NOIP2018-1.pdf' target='_blank'>√</a></td>
+    <td><a href='2018/NOIP2018-2.pdf' target='_blank'>√</a></td>
+    <td><a href='1.title.rar' target='_blank'>title</a></td>
+    <td><a href='2.fight.rar' target='_blank'>fight</a></td>
+    <td><a href='3.bus.rar' target='_blank'>bus</a></td>
+    <td><a href='4.tree.rar' target='_blank'>tree</a></td>
   </tr>
 </table>
 
