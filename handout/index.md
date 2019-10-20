@@ -9,7 +9,7 @@
     1. [devcpp](lesson01/1.devcpp.html)，[pdf](lesson01/00.1-devcpp.pdf)
     2. [challenge](lesson01/2.challenge.html)，[pdf](lesson01/00.2-challenge.pdf)
 2. lesson 02
-    1. [program](lesson01/1.program.html)，[pdf](lesson01/00.1-program.pdf)
-    2. [challenge](lesson01/2.challenge.html)，[pdf](lesson01/00.2-challenge.pdf)
+    1. [program](lesson02/1.program.html)，[pdf](lesson02/00.1-program.pdf)
+    2. [challenge](lesson02/2.challenge.html)，[pdf](lesson02/00.2-challenge.pdf)
 
 
