@@ -2,7 +2,7 @@
 
 
 <table>
-  <tr><th>序号</th><th>课程</th><th>讲义</th></tr>
+  <tr><th>序号</th><th>课程</th><th colspan="6">讲义</th></tr>
   <tr><td>0</td><td>lession 00</td>
     <td style="text-align:left;">
       <a href='lesson00/1.intro.html'>1.intro</a>[<a href='lesson00/00.1-intro.pdf'>pdf</a>]
