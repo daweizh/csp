@@ -4,7 +4,7 @@
 <table>
   <tr><th>序号</th><th>课程</th><th>讲义</th></tr>
   <tr><td>0</td><td>lession 00</td>
-    <td style="align:left;">
+    <td style="text-align:left;">
       <a href='lesson00/1.intro.html'>1.intro</a>/<a href='lesson00/00.1-intro.pdf'>pdf</a>，
       <a href='lesson00/2.level.html'>2.level</a>/<a href='lesson00/00.2-level.pdf'>pdf</a>，
       <a href='lesson00/3.pts.html'>3.pts</a>/<a href='lesson00/00.3-pts.pdf'>pdf</a>，
@@ -14,13 +14,13 @@
     </td>
   </tr>
   <tr><td>1</td><td>lession 01</td>
-    <td style="align:left;">
+    <td style="text-align:left;">
       <a href='lesson01/1.devcpp.html'>1.devcpp</a>/<a href='lesson01/00.1-devcpp.pdf'>pdf</a>，
       <a href='lesson01/2.challenge.html'>2.challenge</a>/<a href='lesson01/00.2-challenge.pdf'>pdf</a>
     </td>
   </tr>
   <tr><td>2</td><td>lession 02</td>
-    <td style="align:left;">
+    <td style="text-align:left;">
       <a href='lesson02/1.program.html'>1.program</a>/<a href='lesson02/00.1-program.pdf'>pdf</a>，
       <a href='lesson02/2.challenge.html'>2.challenge</a>/<a href='lesson02/00.2-challenge.pdf'>pdf</a>
     </td>
