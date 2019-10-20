@@ -41,9 +41,9 @@
     <td>2018</td>
     <td><a href='2.csps/2018/NOIP2018-1.pdf' target='_blank'>√</a></td>
     <td><a href='2.csps/2018/NOIP2018-2.pdf' target='_blank'>√</a></td>
-    <td><a href='2.csps/2018/1.title.rar' target='_blank'>title</a></td>
-    <td><a href='2.csps/2018/2.fight.rar' target='_blank'>fight</a></td>
-    <td><a href='2.csps/2018/3.bus.rar' target='_blank'>bus</a></td>
+    <td><a href='2.csps/2018/1.road.rar' target='_blank'>road</a></td>
+    <td><a href='2.csps/2018/2.money.rar' target='_blank'>money</a></td>
+    <td><a href='2.csps/2018/3.track.rar' target='_blank'>track</a></td>
     <td><a href='2.csps/2018/NOIP2018-3.pdf' target='_blank'>√</a></td>
     <td><a href='2.csps/2018/1.title.rar' target='_blank'>title</a></td>
     <td><a href='2.csps/2018/2.fight.rar' target='_blank'>fight</a></td>
