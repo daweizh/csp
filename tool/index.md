@@ -1,6 +1,6 @@
 ## 软件工具
 
-辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+> 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 <table>
   <tr><th>序号</th><th>名称</th><th>32位</th><th>64位</th></tr>

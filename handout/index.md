@@ -1,6 +1,6 @@
 ## 讲义&笔记
 
-辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+> 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 <table>
   <tr><th>序号</th><th>课程</th><th colspan="6">讲义</th></tr>

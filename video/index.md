@@ -1,6 +1,6 @@
 ## 相关视频 ##
 
-辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+> 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 <table>
   <tr><th>课程</th><th>视频</th></tr>
