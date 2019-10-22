@@ -1,5 +1,7 @@
 ## 软件工具
 
+辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+
 <table>
   <tr><th>序号</th><th>名称</th><th>32位</th><th>64位</th></tr>
   <tr>
@@ -27,3 +29,14 @@
     <td><a href='Dev-Cpp-5.11-TDM-GCC-x64-4.9.2-Portable.7z' target='_blank'>√</a></td>
   </tr>
 </table>
+
+## 微信扫码
+
+<table style="font-size:12px;"><tr>
+    <td><img src="../handout/lesson00/images/zdw.jpg" width="100"></td>
+    <td><img src="../handout/lesson00/images/idea.jpg" width="100"></td>
+    <td><img src="../handout/lesson00/images/shl.jpg" width="100"></td>
+    <td><img src="../handout/lesson00/images/xszt.jpg" width="100"></td>
+</tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
+</table>
+

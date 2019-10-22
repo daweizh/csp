@@ -2,7 +2,6 @@
 
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
-
 <table>
   <tr><th>序号</th><th>课程</th><th colspan="6">讲义</th></tr>
   <tr><td>0</td><td>lession 00</td>
@@ -46,18 +45,12 @@
 
 ## 微信扫码
 
-<table style="font-size:12px;">
-<tr>
+<table style="font-size:12px;"><tr>
     <td><img src="lesson00/images/zdw.jpg" width="100"></td>
     <td><img src="lesson00/images/idea.jpg" width="100"></td>
     <td><img src="lesson00/images/shl.jpg" width="100"></td>
     <td><img src="lesson00/images/xszt.jpg" width="100"></td>
-</tr><tr>
-    <th>辽师张大为</th>
-    <th>智数精英</th>
-    <th>随话录</th>
-    <th>西山征途</th>
-</tr>
+</tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
 </table>
 
 
