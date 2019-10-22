@@ -1,7 +1,5 @@
 ## NOIP 普及组
 
-辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
-
 <table>
   <tr>
     <th>年份</th><th>初赛</th><th>复赛</th><th>数据1</th>
@@ -159,3 +157,4 @@
 </tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
 </table>
 
+辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
