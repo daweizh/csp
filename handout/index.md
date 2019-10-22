@@ -22,8 +22,10 @@
   <tr><td>1</td><td>lession 01</td>
     <td style="text-align:left;">
       <a href='lesson01/1.devcpp.html'>1.devcpp</a>[<a href='lesson01/01.1-devcpp.pdf'>pdf</a>]
-    </td><td style="text-align:left;" colspan="5">
+    </td><td style="text-align:left;" colspan="4">
       <a href='lesson01/2.challenge.html'>2.challenge</a>[<a href='lesson01/01.2-challenge.pdf'>pdf</a>]
+    </td><td style="text-align:left;">
+      <a href='lesson00/7.organ.html'>7.declaration</a>[<a href='lesson00/00.7-organ.pdf'>pdf</a>]
     </td>
   </tr>
   <tr><td>2</td><td>lession 02</td>
