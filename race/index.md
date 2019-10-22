@@ -1,6 +1,6 @@
 ## NOIP 普及组
 
-> 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 <table>
   <tr>
