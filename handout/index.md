@@ -20,16 +20,23 @@
   </tr>
   <tr><td>1</td><td>lession 01</td>
     <td style="text-align:left;">
-      <a href='lesson01/1.devcpp.html'>1.devcpp</a>[<a href='lesson01/00.1-devcpp.pdf'>pdf</a>]
+      <a href='lesson01/1.devcpp.html'>1.devcpp</a>[<a href='lesson01/01.1-devcpp.pdf'>pdf</a>]
     </td><td style="text-align:left;" colspan="5">
-      <a href='lesson01/2.challenge.html'>2.challenge</a>[<a href='lesson01/00.2-challenge.pdf'>pdf</a>]
+      <a href='lesson01/2.challenge.html'>2.challenge</a>[<a href='lesson01/01.2-challenge.pdf'>pdf</a>]
     </td>
   </tr>
   <tr><td>2</td><td>lession 02</td>
     <td style="text-align:left;">
-      <a href='lesson02/1.program.html'>1.program</a>[<a href='lesson02/00.1-program.pdf'>pdf</a>]
+      <a href='lesson02/1.program.html'>1.program</a>[<a href='lesson02/02.1-program.pdf'>pdf</a>]
     </td><td style="text-align:left;" colspan="5">
-      <a href='lesson02/2.challenge.html'>2.challenge</a>[<a href='lesson02/00.2-challenge.pdf'>pdf</a>]
+      <a href='lesson02/2.challenge.html'>2.challenge</a>[<a href='lesson02/02.2-challenge.pdf'>pdf</a>]
+    </td>
+  </tr>
+  <tr><td>3</td><td>lession 02</td>
+    <td style="text-align:left;">
+      <a href='lesson03/1.project.html'>1.program</a>[<a href='lesson03/03.1-project.pdf'>pdf</a>]
+    </td><td style="text-align:left;" colspan="5">
+      <a href='lesson03/2.challenge.html'>2.challenge</a>[<a href='lesson03/03.2-challenge.pdf'>pdf</a>]
     </td>
   </tr>
 </table>

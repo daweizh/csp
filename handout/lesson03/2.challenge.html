@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2.challenge</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>Pencil</h1>
+<p>NOIP2016年普及组第一题。</p>
+<h2>问题描述</h2>
+<p>P老师需要去商店买n支铅笔作为小朋友们参加NOIP的礼物。
+她发现商店一共有3种包装的铅笔，不同包装内的铅笔数量有可能不同，价格也有可能不同。
+为了公平起见，P老师决定只买同一种包装的铅笔。</p>
+<p>商店不允许将铅笔的包装拆开，因此P老师可能需要购买超过n支铅笔才够给小朋友们发礼物。</p>
+<p>现在P老师想知道，在商店每种包装的数量都足够的情况下，要买够至少n支铅笔最少需要花费多少钱。</p>
+<h2>输入格式</h2>
+<ul>
+<li>从文件pencil.in中读入数据</li>
+<li>输入的第一行包含一个正整数n，表示需要的铅笔数量。</li>
+<li>接下来三行，每行用两个正整数描述一种包装的铅笔：其中第一个整数表示这种包装内铅笔的数量，第二个整数表示这种包装的价格。</li>
+<li>保证所有的7个数都是不超过10000的正整数。</li>
+</ul>
+<h2>输出格式</h2>
+<ul>
+<li>输出到文件pencil.out中</li>
+<li>输出一行一个整数，表示P老师最少需要花费的钱。</li>
+</ul>
+<h2>输入输出样例1</h2>
+<table>
+<tr><th>输入</th><th>输出</th></tr>
+<tr><td>
+57<br>
+2 2<br>
+50 30<br>
+30 27
+</td><td valign="top">
+54
+</td></tr>
+</table>
+<p>铅笔的三种包装分别是：</p>
+<ul>
+<li>2支装，价格为2;</li>
+<li>50支装，价格为30;</li>
+<li>30支装，价格为27。</li>
+</ul>
+<p>P老师需要购买至少57支铅笔。</p>
+<p>如果她选择购买第一种包装，那么她需要购买29份，共计2×29=58支，需要花费的钱为2×29=58。</p>
+<p>实际上，P老师会选择购买第三种包装，这样需要买2份。
+虽然最后买到的铅笔数量更多了，为30×2=60支，但花费却减少为27×2=54，比第一种少。</p>
+<p>对于第二种包装，虽然每支铅笔的价格是最低的，但要够发必须买2份，实际的花费达到了30×2=60，因此P老师也不会选择。</p>
+<p>所以最后输出的答案是5454。</p>
+<h2>输入输出样例2</h2>
+<table>
+<tr><th>输入</th><th>输出</th></tr>
+<tr><td>
+9998<br>
+128 233<br>
+128 2333<br>
+128 666
+</td><td valign="top">
+18407
+</td></tr>
+</table>
+<h2>输入输出样例3</h2>
+<table>
+<tr><th>输入</th><th>输出</th></tr>
+<tr><td>
+9999<br>
+101 1111<br>
+1 9999<br>
+1111 9999
+</td><td valign="top">
+89991
+</td></tr>
+</table>
+<h2>子任务</h2>
+<p>子任务会给出部分测试数据的特点。
+如果你在解决题目中遇到了困难，可以尝试只解决一部分测试数据。</p>
+<p>每个测试点的数据规模及特点如下表：</p>
+<p><img src="images/challenge-1.png" /></p>
+<p>上表中“整倍数”的意义为：若为√，表示对应数据所需要的铅笔数量n—定是每种包装铅笔数量的整倍数（这意味着一定可以不用多买铅笔)。</p>
+<h2>参考代码</h2>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int n,m,mincost,pk,pr;
+    cin &gt;&gt; n;
+    mincost = n * 10000;
+    
+    for(int i=0;i&lt;3;i++){
+        cin &gt;&gt; pk &gt;&gt; pr;
+        if(n%pk==0){
+            m = n/pk * pr;
+        }else{
+            m = (n/pk + 1) * pr;
+        }
+        if(m &lt; mincost){
+            mincost = m;
+        }
+    }
+
+    cout &lt;&lt; mincost &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
