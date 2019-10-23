@@ -2,11 +2,15 @@
 
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
+1. lesson 01 
+    1. [intro](lesson00/1.intro.html)...............[pdf](lesson00/00.1-intro.pdf)
+
+
 <table>
   <tr><th>序号</th><th>课程</th><th colspan="6">讲义</th></tr>
   <tr><td>0</td><td>lession 00</td>
     <td style="text-align:left;">
-      <a href='lesson00/1.intro.html'>1.intro</a>[<a href='lesson00/00.1-intro.pdf'>pdf</a>]
+      <a href=''>1.intro</a>[<a href='lesson00/00.1-intro.pdf'>pdf</a>]
     </td><td style="text-align:left;">
       <a href='lesson00/2.level.html'>2.level</a>[<a href='lesson00/00.2-level.pdf'>pdf</a>]
     </td><td style="text-align:left;">
