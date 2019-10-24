@@ -6,7 +6,7 @@
     1. [intro](lesson00/1.intro.html)...............[pdf](lesson00/00.1-intro.pdf)
 
 
-<table border='0'>
+<table style="border:0px;">
   <tr><th align='left'>00. lesson 00</th><td></td><td></td></tr>
   <tr><th align='left'>　　<a href='lesson00/1.intro.html'>1.intro</a></th>
       <td>...............</td>
