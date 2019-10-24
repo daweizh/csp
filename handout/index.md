@@ -9,24 +9,31 @@
 <table border='0'>
   <tr><th align='left'>00. lesson 00</th><td></td><td></td></tr>
   <tr><th align='left'>　　<a href='lesson00/1.intro.html'>1.intro</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.1-intro.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/2.level.html'>2.level</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.2-level.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/3.pts.html'>3.pts</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.3-pts.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/4.method.html'>4.method</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.4-method.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/5.resource.html'>5.resource</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.5-resource.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/6.tong11.html'>6.tong11</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.6-tong11.pdf'>pdf</a></td>
   </tr>
   <tr><th align='left'>　　<a href='lesson00/7.organ.html'>7.declaration</a></th>
+      <td>...............</td>
       <td align='right'><a href='lesson00/00.7-organ.pdf'>pdf</a></td>
   </tr>
 
