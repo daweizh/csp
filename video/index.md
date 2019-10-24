@@ -1,4 +1,4 @@
-辽师张大为·[首页->https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 ## 相关视频 ##
 

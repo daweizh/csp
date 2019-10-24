@@ -1,3 +1,4 @@
+辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 ## NOIP 普及组 [首页](https://daweizh.github.io/csp/)
 
@@ -158,5 +159,3 @@
 ## CSP-J
 
 ## CSP-S
-
-辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)

@@ -1,6 +1,6 @@
-## C++算法编程&竞赛
-
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
+
+## C++算法编程&竞赛
 
 - 学习C++语言的游戏小程序............<a href='game/arith.rar' target='_blank'>arith</a>
 - 还为大家准备了...........................<a href='race/' target='_blank'>NOIP真题及数据</a>
