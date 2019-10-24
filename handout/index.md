@@ -7,8 +7,8 @@
 
 
 <table>
-  <tr><th>0</th><th>lesson 00</th><td></td><td></td></tr>
-  <tr><th></th><th>　　<a href='lesson00/1.intro.html'>1.intro</a></th><td></td><td><a href='lesson00/00.1-intro.pdf'>pdf</a></td></tr>
+  <tr><th width="30">0</th><th with="200">lesson 00</th><td></td><td width="50"></td></tr>
+  <tr><th> </th><th>　　<a href='lesson00/1.intro.html'>1.intro</a></th><td></td><td><a href='lesson00/00.1-intro.pdf'>pdf</a></td></tr>
 </table>
 
 
