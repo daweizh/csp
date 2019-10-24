@@ -37,46 +37,36 @@
       <td align='right'><a href='lesson00/00.7-organ.pdf'>pdf</a></td>
   </tr>
 
-</table>
-
-
-<table>
-  <tr><td>1</td><td>lession 01</td>
-    <td style="text-align:left;">
-      <a href='lesson01/1.devcpp.html'>1.devcpp</a>[<a href='lesson01/01.1-devcpp.pdf'>pdf</a>]
-    </td><td style="text-align:left;" colspan="4">
-      <a href='lesson01/2.challenge.html'>2.challenge</a>[<a href='lesson01/01.2-challenge.pdf'>pdf</a>]
-    </td><td style="text-align:left;">
-      []
-    </td>
+  <tr><th align='left'>01. lesson 01</th><td></td><td></td></tr>
+  <tr><th align='left'>　　<a href='lesson01/1.devcpp.html'>1.devcpp</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson01/01.1-devcpp.pdf'>pdf</a></td>
   </tr>
-  <tr><td>2</td><td>lession 02</td>
-    <td style="text-align:left;">
-      <a href='lesson02/1.program.html'>1.program</a>[<a href='lesson02/02.1-program.pdf'>pdf</a>]
-    </td><td style="text-align:left;" colspan="5">
-      <a href='lesson02/2.challenge.html'>2.challenge</a>[<a href='lesson02/02.2-challenge.pdf'>pdf</a>]
-    </td>
+  <tr><th align='left'>　　<a href='lesson01/2.challenge.html'>2.challenge</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson01/01.2-challenge.pdf'>pdf</a></td>
   </tr>
-  <tr><td>3</td><td>lession 02</td>
-    <td style="text-align:left;">
-      <a href='lesson03/1.project.html'>1.project</a>[<a href='lesson03/03.1-project.pdf'>pdf</a>]
-    </td><td style="text-align:left;" colspan="5">
-      <a href='lesson03/2.challenge.html'>2.challenge</a>[<a href='lesson03/03.2-challenge.pdf'>pdf</a>]
-    </td>
+
+  <tr><th align='left'>02. lesson 02</th><td></td><td></td></tr>
+  <tr><th align='left'>　　<a href='lesson02/1.program.html'>1.program</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson02/02.1-program.pdf'>pdf</a></td>
   </tr>
+  <tr><th align='left'>　　<a href='lesson02/2.challenge.html'>2.challenge</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson02/02.2-challenge.pdf'>pdf</a></td>
+  </tr>
+
+  <tr><th align='left'>03. lesson 03</th><td></td><td></td></tr>
+  <tr><th align='left'>　　<a href='lesson03/1.project.html'>1.project</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson03/03.1-project.pdf'>pdf</a></td>
+  </tr>
+  <tr><th align='left'>　　<a href='lesson03/2.challenge.html'>2.challenge</a></th>
+      <td>...............</td>
+      <td align='right'><a href='lesson03/03.2-challenge.pdf'>pdf</a></td>
+  </tr>
+
 </table>
-
-
-## 微信扫码
-
-<table style="font-size:12px;"><tr>
-    <td><img src="lesson00/images/zdw.jpg" width="100"></td>
-    <td><img src="lesson00/images/idea.jpg" width="100"></td>
-    <td><img src="lesson00/images/shl.jpg" width="100"></td>
-    <td><img src="lesson00/images/xszt.jpg" width="100"></td>
-</tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
-</table>
-
-
 
     
