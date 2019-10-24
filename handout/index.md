@@ -4,14 +4,19 @@
 
 1. lesson 01 
     1. [intro](lesson00/1.intro.html)...............[pdf](lesson00/00.1-intro.pdf)
-    2. [level](lesson00/2.level.html)...............[pdf](lesson00/00.2-level.pdf)
+
+
+<table>
+  <tr><th>0</th><th>lesson 00</th><td></td><td></td></tr>
+  <tr><th></th><th>　　<a href='lesson00/1.intro.html'>1.intro</a></th><td></td><td><a href='lesson00/00.1-intro.pdf'>pdf</a></td></tr>
+</table>
 
 
 <table>
   <tr><th>序号</th><th>课程</th><th colspan="6">讲义</th></tr>
   <tr><td>0</td><td>lession 00</td>
     <td style="text-align:left;">
-      <a href=''>1.intro</a>[<a href='lesson00/00.1-intro.pdf'>pdf</a>]
+      [<a href='lesson00/00.1-intro.pdf'>pdf</a>]
     </td><td style="text-align:left;">
       <a href='lesson00/2.level.html'>2.level</a>[<a href='lesson00/00.2-level.pdf'>pdf</a>]
     </td><td style="text-align:left;">
