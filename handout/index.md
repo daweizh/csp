@@ -6,10 +6,10 @@
     1. [intro](lesson00/1.intro.html)...............[pdf](lesson00/00.1-intro.pdf)
 
 
-<table style="border:none;">
-  <tr><th style="text-align:left;">00. lesson 00</th><td></td><td></td></tr>
-  <tr><th style="text-align:left;">　　<a href='lesson00/1.intro.html'>1.intro</a></th><td></td>
-      <td style="text-align:right;"><a href='lesson00/00.1-intro.pdf'>pdf</a></td>
+<table border='0'>
+  <tr><th align='left'>00. lesson 00</th><td></td><td></td></tr>
+  <tr><th align='left'>　　<a href='lesson00/1.intro.html'>1.intro</a></th><td></td>
+      <td align='right'><a href='lesson00/00.1-intro.pdf'>pdf</a></td>
   </tr>
 </table>
 
