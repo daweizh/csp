@@ -3,56 +3,56 @@
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 <table style="border:0px;">
-  <tr><th align='left'>00. lesson 00</th><td></td><td></td></tr>
-  <tr><th align='left'>　　<a href='lesson00/1.intro.html'>1.intro</a></th>
+  <tr><th style="border:0px;text-align:left">00. lesson 00</th><td></td><td></td></tr>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/1.intro.html'>1.intro</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.1-intro.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.1-intro.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/2.level.html'>2.level</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/2.level.html'>2.level</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.2-level.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.2-level.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/3.pts.html'>3.pts</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/3.pts.html'>3.pts</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.3-pts.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.3-pts.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/4.method.html'>4.method</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/4.method.html'>4.method</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.4-method.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.4-method.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/5.resource.html'>5.resource</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/5.resource.html'>5.resource</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.5-resource.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.5-resource.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/6.tong11.html'>6.tong11</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/6.tong11.html'>6.tong11</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.6-tong11.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.6-tong11.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson00/7.organ.html'>7.declaration</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson00/7.organ.html'>7.declaration</a></th>
       <td>...............</td>
-      <td align='right'><a href='lesson00/00.7-organ.pdf'>pdf</a></td>
+      <td style="border:0px;text-align:right"><a href='lesson00/00.7-organ.pdf'>pdf</a></td>
   </tr>
 </table>
 
 <table style="border:0px;">
-  <tr><th align='left'>01. lesson 01</th><td></td><td></td></tr>
-  <tr><th align='left'>　　<a href='lesson01/1.devcpp.html'>1.devcpp</a></th>
+  <tr><th style="border:0px;text-align:left">01. lesson 01</th><td></td><td></td></tr>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson01/1.devcpp.html'>1.devcpp</a></th>
       <td>...............</td>
       <td align='right'><a href='lesson01/01.1-devcpp.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson01/2.challenge.html'>2.challenge</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson01/2.challenge.html'>2.challenge</a></th>
       <td>...............</td>
       <td align='right'><a href='lesson01/01.2-challenge.pdf'>pdf</a></td>
   </tr>
 </table>
 
 <table style="border:0px;">
-  <tr><th align='left'>02. lesson 02</th><td></td><td></td></tr>
-  <tr><th align='left'>　　<a href='lesson02/1.program.html'>1.program</a></th>
+  <tr><th style="border:0px;text-align:left">02. lesson 02</th><td></td><td></td></tr>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson02/1.program.html'>1.program</a></th>
       <td>...............</td>
       <td align='right'><a href='lesson02/02.1-program.pdf'>pdf</a></td>
   </tr>
-  <tr><th align='left'>　　<a href='lesson02/2.challenge.html'>2.challenge</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson02/2.challenge.html'>2.challenge</a></th>
       <td>...............</td>
       <td align='right'><a href='lesson02/02.2-challenge.pdf'>pdf</a></td>
   </tr>
