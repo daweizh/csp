@@ -13,4 +13,16 @@
         <a href='lesson00/lesson00-06.mp4' target='_blank'>06</a> 
       </td>
   </tr>
+
+  <tr><th style="border:0px;text-align:left">01. lesson 01</th>
+      <td style="border:0px;text-align:right">
+        <a href='lesson01/lesson01-1.mp4' target='_blank'>01</a>， 
+        <a href='lesson01/lesson01-2.mp4' target='_blank'>02</a>， 
+        <a href='lesson01/lesson01-3.mp4' target='_blank'>03</a>， 
+        <a href='lesson01/lesson01-4.mp4' target='_blank'>04</a>， 
+        <a href='lesson01/lesson01-5.mp4' target='_blank'>05</a>， 
+        <a href='lesson01/lesson01-6.mp4' target='_blank'>06</a> 
+      </td>
+  </tr>
+
 </table>
