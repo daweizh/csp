@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1.game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>算术游戏</h1>
+<blockquote>
+<p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
+</blockquote>
+<p>我们日常生活中经常用到算术运算中的+/-法，比如去市场买菜。
+在任何工作中+/-运算都是重要的数字处理手段，
+对于我们学生而言，更是如此，没有计算精度和效率，很难取得好的成绩。</p>
+<p>那么怎样提高我们计算+/-法的精度和效率呢？
+小明想设计一款计算机游戏程序来完成这项工作，他的设想如下：</p>
+<ol>
+<li>该款游戏可以设定从任意级别开始玩，规定游戏级别对应数字的最大位数，如游戏级别level=5，则需要计算的两个数字中最大位数为5，同时规定游戏的最高级别为18（C++能装下的最多整数位）。如果不选择级别，默认为1级（即1位数）。</li>
+<li>可以在游戏开始时选择+法或-法，如果不选择，默认为+法。</li>
+<li>可以自由设定游戏难度，规定难度级别hard对应（61-hard）秒超时。比如你设定hard=30，但你做题用了32秒，则判你为超时，如果超时题数超过50%，难度hard减1。</li>
+<li>每局游戏默认情况下要完成10道题，如果每局正确率不足50%，题数num自动加1。如果正确率≥90%，游戏晋级level+1。</li>
+<li>如果题目正确率在50%和90%之间，且计算超时题目＜50%，游戏难度hard自动加1。</li>
+<li>
+小明想给每局游戏结果通过计算得分的方式冠名，计算方式是score=(correct+overtime<em>.5)</em>100/num;
+<ol>
+<li>score=100，冠名为king</li>
+<li>90 ≤ score &lt; 100，冠名为excellent</li>
+<li>80 ≤ score &lt; 90，冠名为prefect</li>
+<li>70 ≤ score &lt; 80，冠名为ok</li>
+<li>60 ≤ score &lt; 70，冠名为low</li>
+<li>score &lt; 60，冠名为bad</li>
+</ol>
+</li>
+<li>每局所有题目都做完了，游戏会问你是否继续，默认为y(是)，输入n(否)。下一局的级别leve，难度hard和题数num由本局游戏成绩确定。</li>
+<li>目前游戏还不能保存游戏状态，等小明竞赛获奖后，增加该部分功能。</li>
+</ol>
+<p>下面通过玩这款游戏感知一下小明的理想。</p>
+<blockquote>
+<p>arith.exe</p>
+</blockquote>
+<pre><code>Please select level([1]-18):
+Please select operator([+],-):
+Please select Hard([1]-60):
+Level=1,Operator=+,Hard=1,Disaplay=h,Number=10
+4+2=6
+Time used = 4.12        =&gt;Right.
+
+3+9=12
+Time used = 4.15        =&gt;Right.
+
+6+2=8
+Time used = 2.54        =&gt;Right.
+
+2+8=10
+Time used = 1.71        =&gt;Right.
+
+3+9=12
+Time used = 1.59        =&gt;Right.
+
+1+3=4
+Time used = 1.52        =&gt;Right.
+
+2+3=5
+Time used = 1.38        =&gt;Right.
+
+2+3=5
+Time used = 1.27        =&gt;Right.
+
+3+3=6
+Time used = 1.39        =&gt;Right.
+
+8+8=16
+Time used = 2.66        =&gt;Right.
+
+right   wrong   overtime
+---------------------------------
+10      0       0
+
+score=100       king
+
+Continue this game？([y]/n)n
+</code></pre>
+
+<p>游戏做好了，小明玩了几天以后，发现这款游戏存在很大问题如：</p>
+<ol>
+<li>游戏默认设定10道题太古板了，如果想从一开始就刷20到题，很难办到，通过积累战绩要很长时间才行。小明想在游戏开始运行时直接设定每局游戏的默认题数。</li>
+<li>小明发现随着游戏级别level的增长，通过横式计算难度超大（记不住位数，好几次宝宝都难哭了），而大位数计算我们一般会用竖式。于是，小明想增加用竖式出题的功能。</li>
+</ol>
+<p>大概是下面这个样子：</p>
+<blockquote>
+<p>arith --disp v --numb 2</p>
+</blockquote>
+<pre><code>Please select level([1]-18):3
+Please select operator([+],-):-
+Please select Hard([1]-60):3
+Level=3,Operator=-,Hard=3,Disaplay=v,Number=2
+                      637
+-                     296
+-------------------------
+=341
+Time used = 13.81       =&gt;Right.
+
+                      971
+-                     137
+-------------------------
+=834
+Time used = 15.85       =&gt;Right.
+
+right   wrong   overtime
+---------------------------------
+2       0       0
+
+score=100       king
+
+Continue this game？([y]/n)n
+</code></pre>
+
+<p>现在是竖式出题了，而且每局只有2道题。</p>
+<p>可是，小明总记不住设定出题格式和设定默认题数的方法，于是小明想对游戏程序增加帮助功能，大概是下面这个样子的：</p>
+<pre><code>F:\a.steam\dreamx\wedo\code\arith&gt;arith --help
+Usage: game.exe [--help]|[--disp h|v]|[--numb 20]
+
+--help :display help
+--disp :show model of question. You can select h(horizontal)  or v(vertical)
+--numb :question number
+</code></pre>
+
+<p>好了，现在小明可以舒舒服服地通过该游戏练习计算精度和速度了。</p>
+<p>理想和和实现目标都有了，现在需要编程序了，小明想让你来做！！！</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
