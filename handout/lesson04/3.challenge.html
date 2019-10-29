@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>5.resource</title>
+<title>3.challenge</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,59 +291,65 @@ img {
 </style>
 </head>
 <body>
-<h1>竞赛资源</h1>
+<h1>Coin</h1>
+<p>NOIP2015年普及组第一题。</p>
+<h2>问题描述</h2>
+<p>国王将金币作为工资，发放给忠诚的骑士。
+第一天，骑士收到一枚金币；之后两天（第二天和第三天），每天收到两枚金币；
+之后三天（第四、五、六天），每天收到三枚金币；
+之后四天（第七、八、九、十天），每天收到四枚金币……；
+这种工资发放模式会一直这样延续下去：
+当连续 N 天每天收到 N 枚金币后，骑士会在之后的连续 N+1 天里，每天收到 N+1 枚金币。</p>
+<p>请计算在前 K 天里，骑士一共获得了多少金币。</p>
+<h2>输入格式</h2>
+<ul>
+<li>输入文件名为 coin.in。</li>
+<li>输入文件只有 1 行，包含一个正整数 K，表示发放金币的天数。</li>
+</ul>
+<h2>输出格式</h2>
+<ul>
+<li>输出文件名为 coin.out。</li>
+<li>输出文件只有 1 行，包含一个正整数，即骑士收到的金币数。</li>
+</ul>
+<h2>输入输出样例1</h2>
+<table>
+<tr><th>输入</th><th>输出</th></tr>
+<tr><td>6</td><td valign="top">14</td></tr>
+</table>
+<p>骑士第一天收到一枚金币；
+第二天和第三天，每天收到两枚金币；
+第四、五、六天，每天收到三枚金币。
+因此一共收到 1+2+2+3+3+3=14 枚金币。</p>
+<h2>输入输出样例2</h2>
+<table>
+<tr><th>输入</th><th>输出</th></tr>
+<tr><td>1000</td><td valign="top">29820</td></tr>
+</table>
+<h2>数据说明</h2>
+<p>对于100%的数据，1 ≤ K ≤ 10,000。</p>
+<h2>参考代码</h2>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int d,i,m=0;
+    
+    cin &gt;&gt; d;
+    for(i=1;i&lt;d;i++){
+        m = m + i*i;
+        d = d - i;
+    }
+    m = m + i * d;
+    
+    cout &lt;&lt; m &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
 </blockquote>
-<h2>网站</h2>
-<ol>
-<li>CCF官网 <a href="https://www.ccf.org.cn/">https://www.ccf.org.cn/</a></li>
-<li>NOI官网 <a href="http://www.noi.cn/">http://www.noi.cn/</a></li>
-<li>NOI旧版网站 <a href="http://history.noi.cn/">http://history.noi.cn/</a></li>
-<li>NOI辽宁官网 <a href="http://lnnoi.dlu.edu.cn/">http://lnnoi.dlu.edu.cn/</a></li>
-<li>信息学奥赛一本通做题网站一 <a href="http://noi.openjudge.cn/">http://noi.openjudge.cn/</a></li>
-<li>信息学奥赛一本通做题网站二 <a href="http://ybt.ssoier.cn:8088/">http://ybt.ssoier.cn:8088/</a></li>
-<li>CCF中学生计算机程序设计做题网站 <a href="http://oj.noi.cn/">http://oj.noi.cn/</a></li>
-<li>落谷 <a href="https://www.luogu.org/">https://www.luogu.org/</a></li>
-<li>C++ <a href="http://www.cplusplus.com/reference/">http://www.cplusplus.com/reference/</a></li>
-<li>C++菜鸟教程 <a href="https://www.runoob.com/cplusplus/cpp-tutorial.html">https://www.runoob.com/cplusplus/cpp-tutorial.html</a></li>
-</ol>
-<h2>图书</h2>
-<ol>
-<li>
-CCF中学生计算机程序设计系列 <br />
-<img src="images/ccf-book-1.jpg" /> <br />
-<img src="images/ccf-book-2.jpg" /> <br />
-<img src="images/ccf-book-3.jpg" />   
-
-</li>
-<li>
-信息学奥数一本通系列（三本） <br />
-<img src="images/ybt.jpg" />   
-
-</li>
-<li>
-算法竞赛入门经典系列（三本） <br />
-<img src="images/lrj.jpg" />   
-
-</li>
-<li>
-算法竞赛进阶指南  <br />
-<img src="images/lyd.jpg" />   
-
-</li>
-<li>
-挑战编程-程序设计竞赛训练手册  <br />
-<img src="images/tz-lrj.jpg" />   
-
-</li>
-<li>
-挑战程序设计系列 <br />
-<img src="images/jap-1.jpg" /> <br />
-<img src="images/jap-2.jpg" />   
-
-</li>
-</ol>
 
 </body>
 </html>

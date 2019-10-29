@@ -32,7 +32,8 @@
   <tr><th style="border:0px;text-align:left">　　<a href='lesson01/1.devcpp.html'>1.devcpp</a></th>
       <td style="border:0px;text-align:right"><a href='lesson01/01.1.devcpp.pdf'>pdf</a></td>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　<a href='lesson01/2.challenge.html'>2.challenge</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson01/2.challenge.html'>
+        2.challenge-title-2018-junior</a></th>
       <td style="border:0px;text-align:right"><a href='lesson01/01.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -42,7 +43,8 @@
   <tr><th style="border:0px;text-align:left">　　<a href='lesson02/1.program.html'>1.program</a></th>
       <td style="border:0px;text-align:right"><a href='lesson02/02.1.program.pdf'>pdf</a></td>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　<a href='lesson02/2.challenge.html'>2.challenge</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson02/2.challenge.html'>
+        2.challenge-score-2017-junior</a></th>
       <td style="border:0px;text-align:right"><a href='lesson02/02.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -52,7 +54,8 @@
   <tr><th style="border:0px;text-align:left">　　<a href='lesson03/1.project.html'>1.project</a></th>
       <td style="border:0px;text-align:right"><a href='lesson03/03.1.project.pdf'>pdf</a></td>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　<a href='lesson03/2.challenge.html'>2.challenge</a></th>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson03/2.challenge.html'>
+        2.challenge-pencil-2016-junior</a></th>
       <td style="border:0px;text-align:right"><a href='lesson03/03.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -64,5 +67,9 @@
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson04/2.core.html'>2.core</a></th>
       <td style="border:0px;text-align:right"><a href='lesson04/04.2.core.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　<a href='lesson04/3.challenge.html'>
+        2.challenge-coin-2015-junior</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson04/04.3.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
