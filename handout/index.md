@@ -69,7 +69,7 @@
       <td style="border:0px;text-align:right"><a href='lesson04/04.2.core.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson04/3.challenge.html'>
-        2.challenge-coin-2015-junior</a></th>
+        3.challenge-coin-2015-junior</a></th>
       <td style="border:0px;text-align:right"><a href='lesson04/04.3.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
