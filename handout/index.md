@@ -33,7 +33,7 @@
       <td style="border:0px;text-align:right"><a href='lesson01/01.1.devcpp.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson01/2.challenge.html'>
-        2.challenge-title-2018-junior</a></th>
+        2.challenge-2018-junior-1-title</a></th>
       <td style="border:0px;text-align:right"><a href='lesson01/01.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -44,7 +44,7 @@
       <td style="border:0px;text-align:right"><a href='lesson02/02.1.program.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson02/2.challenge.html'>
-        2.challenge-score-2017-junior</a></th>
+        2.challenge-2017-junior-1-score</a></th>
       <td style="border:0px;text-align:right"><a href='lesson02/02.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -55,7 +55,7 @@
       <td style="border:0px;text-align:right"><a href='lesson03/03.1.project.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson03/2.challenge.html'>
-        2.challenge-pencil-2016-junior</a></th>
+        2.challenge-2016-junior-1-pencil</a></th>
       <td style="border:0px;text-align:right"><a href='lesson03/03.2.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
@@ -69,7 +69,7 @@
       <td style="border:0px;text-align:right"><a href='lesson04/04.2.core.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　<a href='lesson04/3.challenge.html'>
-        3.challenge-coin-2015-junior</a></th>
+        3.challenge-2015-junior-1-coin</a></th>
       <td style="border:0px;text-align:right"><a href='lesson04/04.3.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
