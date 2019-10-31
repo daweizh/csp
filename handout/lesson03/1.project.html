@@ -348,6 +348,16 @@ world！
 <li>&lt;&gt; 引入，用于引入系统的、全局的头文件</li>
 <li>“” 引入，用于引入自定义的、本地的头文件</li>
 </ol>
+<p>#include &lt;&gt; 和 #include &quot;&quot; 都会在实现定义的位置查找文件，并将其包含。区别是:</p>
+<ol>
+<li>若 #include &quot;&quot; 查找成功，则遮蔽 #include &lt;&gt; 所能找到的同名文件；</li>
+<li>否则再按照 #include &lt;&gt; 的方式查找文件。</li>
+<li>另外标准库头文件都放在 #include &lt;&gt; 所查找的位置。</li>
+<li>一般来说 #include &lt;&gt; 的查找位置是标准库头文件所在目录</li>
+<li>#include &quot;&quot; 的查找位置是当前源文件所在目录。不过这些都可由编译器调用参数等配置更改。</li>
+<li>&lt;&gt;先去系统目录中找头文件，如果没有在到当前目录下找。所以像标准的头文件 stdio.h、stdlib.h等用这个方法。</li>
+<li>而&quot;&quot;首先在当前目录下寻找，如果找不到，再到系统目录中寻找。 这个用于include自定义的头文件，让系统优先使用当前目录中定义的。</li>
+</ol>
 <p>我们先写一个自己的头文件args.h。</p>
 <p><img src="images/06.png" /></p>
 <pre><code>using namespace std;
