@@ -2,4 +2,5 @@
 
 ## CSP-J/S 真题模拟
 
+<script type="text/javascript" src="../count.js">
 
