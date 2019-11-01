@@ -8,12 +8,12 @@
       <td style="border:0px;"></td></tr>
 
   <tr><th style="border:0px;text-align:left">　　
-        <a href='../handeout/train/1.guide.html'>1.guide</a></th>
-      <td style="border:0px;text-align:right"><a href='../handeout/train/1.guide.pdf'>pdf</a></td>
+        <a href='../handout/train/1.guide.html'>1.guide</a></th>
+      <td style="border:0px;text-align:right"><a href='../handout/train/1.guide.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='../handeout/train/2.race.html'>2.race</a></th>
-      <td style="border:0px;text-align:right"><a href='../handeout/train/2.race.pdf'>pdf</a></td>
+        <a href='../handout/train/2.race.html'>2.race</a></th>
+      <td style="border:0px;text-align:right"><a href='../handout/train/2.race.pdf'>pdf</a></td>
   </tr>
 </table>
 
