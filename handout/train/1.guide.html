@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1.guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>noilinux-1.4.1下GUIDE-1.0.0编程</h1>
+<p><script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script></p>
+<blockquote>
+<p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
+</blockquote>
+<p>以NOIP 2017年第23届普及组复赛试题score为例，说明在noilinux下如何用GUIDE进行编程和测试的实践过程。</p>
+<h2>1. 准备复赛环节模拟试题</h2>
+<ol>
+<li>
+通过 <strong>位置</strong> 菜单中的 <strong>主文件夹</strong> 菜单定位当前登录用户的主工作空间。 <br />
+<img src="images/quest-01.png" />
+</li>
+<li>
+注意 <strong>主文件夹</strong> 下的 <strong>Desktop</strong> 文件夹，用来保存在桌面上呈现的内容，竞赛实战中试题可能保存在此处。在主窗口的空白处 <strong>鼠标右键</strong> 选择 <strong>新建文件夹</strong> ，新建 <strong>arbiter</strong> 文件夹和 <strong>noip</strong> 文件夹。 <br />
+<img src="images/quest-02.png" />
+</li>
+<li>
+打开 <strong>Firefox</strong> 浏览器，找到模拟试题的下载网站<a href="https://daweizh.github.io/csp">https://daweizh.github.io/csp/</a>，选择 <strong>竞赛演练</strong>。 <br />
+<img src="images/quest-03.png" />  <br />
+竞赛实战中你的考题一般会呈现在桌面(~/Desktop)文件夹下。     
+
+</li>
+<li>
+以2017年第23届普及组复赛试题为例，鼠标右键 <strong>下载</strong> 选择 <strong>Save Link As...</strong> 。  <br />
+<img src="images/quest-04.png" />
+</li>
+<li>
+在弹出的保存文件对话框中选择 <strong>主文件夹</strong> 下的 <strong>noip</strong> 文件夹，文件名保持默认不变，点击 <strong>保存</strong> 按钮。 <br />
+<img src="images/quest-05.png" />
+</li>
+<li>
+可以点击 <strong>Firefox</strong> 上的 <strong>下载状态按钮</strong> 观察下载进度，等待下载完成。 <br />
+<img src="images/quest-06.png" />
+</li>
+<li>
+下载完成后，回到 <strong>主文件夹</strong> 位置，进入 <strong>noip</strong> 文件夹，鼠标右键模拟试题 <strong>junior-rep-23-2017-C++.zip</strong> 压缩包，选择 <strong>提取到此处</strong> 菜单（在竞赛实战中此时会提示输入考试密码，注意大小写的区分，数字和英文的区分，不要因紧张着急输错），出现同名的文件夹时，试题准备完成。 <br />
+<img src="images/quest-07.png" />
+</li>
+</ol>
+<h2>2. 用CUIDE写C++程序</h2>
+<ol>
+<li>
+选择桌面左上角 <strong>应用程序</strong> 菜单选择 <strong>编程</strong> 子菜单，打开 <strong>GUIDE</strong> 编程环境。 <br />
+<img src="images/guide-01.png" />
+</li>
+<li>
+修改 <strong>快速定位</strong> 内容到当前工作文件夹 <strong>~/noip/junior-rep-23-2017-C++/score</strong>， 左侧项目浏览器中出现测试数据。 <br />
+<img src="images/guide-02.png" />
+</li>
+<li>
+选择 <strong>编辑</strong> 菜单中的 <strong>选项</strong> 菜单，进行开发环境设置。  <br />
+<img src="images/guide-03.png" />
+</li>
+<li>
+选择 <strong>自动补全</strong> ，去选 <strong>启用自动完成</strong> ， 用来避免自动补全卡死（先编码试一下，如果自动补全好用，可以跳过此步），点击 <strong>OK</strong> 按钮完成设置。 如果你喜欢还可以在此处进行其他设置。 <br />
+<img src="images/guide-04.png" />
+</li>
+<li>
+<p>在GUIDE工具栏选择选择 <strong>新建</strong> 图标，出现标题为 <strong>未命名</strong>*（注意*表示没有保存） 的编辑窗口，输入几行C++程序代码。</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+</code></pre>
+
+<p>选择 <strong>保存</strong> 图标，出现 <strong>保存</strong> 对话框，在 <strong>File Name</strong> 处输入 <strong>score.cpp</strong> ，点击 <strong>Save</strong> 按钮保存该文件，观察编辑窗口标题的变化。 <br />
+<img src="images/guide-05.png" /> <br />
+完成全部代码</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+
+int main(){
+    int a,b,c;
+
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    cout &lt;&lt;  a * 0.2 + b*0.3 + c*0.5 &lt;&lt; endl;
+
+    return 0;
+}
+</code></pre>
+
+<p>按 <strong>Ctrl+s</strong> 组合键或工具条上 <strong>保存</strong> 图标存盘，注意观察编辑窗口标题的变化。</p>
+</li>
+<li>
+选择 <strong>编译</strong> 菜单，注意 <strong>编译 F7</strong> 和 <strong>运行 Ctrl+F5</strong> 两个子菜单，按 <strong>F7</strong> 键，观察 <strong>信息查看</strong> 栏的输出信息。
+<img src="images/guide-06.png" />
+</li>
+<li>
+按 <strong>Ctrl+F5</strong> 组合键执行程序，输入测试数据并观察执行结果。按任意键关闭窗口。
+<img src="images/guide-07.png" />
+</li>
+</ol>
+<h2>3. 对拍测试</h2>
+<ol>
+<li>
+<p>在GUIDE中完善刚刚执行通过的程序，增加输入/输出重定向语句。</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+
+int main(){
+    int a,b,c;
+
+    freopen(&quot;score.in&quot;,&quot;r&quot;,stdin);
+    freopen(&quot;score.out&quot;,&quot;w&quot;,stdout);
+
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    cout &lt;&lt;  a * 0.2 + b*0.3 + c*0.4 &lt;&lt; endl;
+
+    fclose(stdout);
+    fclose(stdin);
+
+    return 0;
+}
+</code></pre>
+
+</li>
+<li>按 <strong>F7</strong> 键重新编译（<strong>注意：程序修改了一定要再次保存和编译！！！</strong>）。</li>
+<li>
+回到 <strong>主文件夹 noip junior-rep-23-2017-C++ score</strong> 文件夹，在主窗口空白处鼠标右键，<strong>新建文档</strong> ，选择 <strong>空白文档</strong> 。
+<img src="images/judge-01.png" />
+</li>
+<li>
+在新建文档处输入文件名 <strong>score.sh</strong> 。  <br />
+<img src="images/judge-02.png" />
+</li>
+<li>
+鼠标右击刚刚建立的文件 <strong>score.sh</strong> ，在弹出菜单中选择 <strong>打开方式</strong>，进一步选择 <strong>gedit</strong> 。  <br />
+<img src="images/judge-03.png" />
+</li>
+<li>
+在gedit编辑器中输入如下shell脚本程序：
+<pre><code>#!/bin/bash
+i=1
+while [ $i -le 10 ]
+do
+    echo score$i
+    cp -f score$i.in score.in
+    ./score
+    #./score &lt; score$i.in &gt; score.out
+    if diff score$i.ans score.out ; then
+        echo Ac
+    fi
+    i=$(($i+1))
+done
+</code></pre>
+
+根据测试数据的个数修改上面数字 <strong>10</strong>，编辑完成之后存盘退出。  <br />
+<img src="images/judge-04.png" />   
+
+</li>
+<li>
+选择 <strong>应用程序</strong>，选择 <strong>附件</strong>，选择 <strong>终端</strong> ，打开命令行终端。 <br />
+<img src="images/judge-05.png" />
+</li>
+<li>
+在命令行终端里，用 <strong>cd</strong> 命令修改当前工作目录 <strong>~</strong> 代表 <strong>主文件夹</strong> ，<strong>ls</strong> 命令列表当前目录内容。
+<pre><code>noilinux@ubuntu:~$ cd noip/junior-rep-23-2017-C++/score/
+noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ ls
+</code></pre>
+
+<img src="images/judge-06.png" />
+</li>
+<li>
+在 <strong>score</strong> 文件夹下执行 <strong>sudo sh ./score.sh</strong> 命令，输入超级管理员密码 <strong>123456</strong> ，执行对拍脚本后，显示正确的对拍结果如下：    
+
+<pre><code>noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
+[sudo] password for noilinux: 
+score1
+Ac
+score2
+Ac
+... ...
+</code></pre>
+
+Ac表示执行结果正确   <br />
+<img src="images/judge-07.png" />   
+
+</li>
+<li>
+错误的对拍结果如下：    
+
+<pre><code>noilinux@ubuntu:~/noip/junior-rep-23-2017-C++/score$ sudo sh ./score.sh
+score1
+1c1
+&lt; 40
+---
+&gt; 32
+</code></pre>
+
+<img src="images/judge-08.png" />
+</li>
+</ol>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
