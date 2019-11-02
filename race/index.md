@@ -161,5 +161,3 @@
 ## CSP-S
 
 
-
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
