@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 ## C++算法编程&竞赛
@@ -21,6 +20,8 @@
 </tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
 </table>
 
+
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
 
 
 

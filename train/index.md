@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
 辽师张大为@[https://daweizh.github.io/csp/](https://daweizh.github.io/csp/)
 
 ## 竞赛演练
@@ -17,3 +16,5 @@
   </tr>
 </table>
 
+
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
