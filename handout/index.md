@@ -86,3 +86,18 @@
   </tr>
 </table>
 
+<table style="border:0px;width:100%;">
+  <tr><th style="border:0px;text-align:left">05. lesson 05</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson05/1.settings.html'>1.settings</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson05/05.1.settings.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson05/2.params.html'>2.params</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson05/05.2.params.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson05/3.challenge.html'>3.challenge-2014-junior-1-count</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson05/05.3.challenge.pdf'>pdf</a></td>
+  </tr>
+</table>
