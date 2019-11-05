@@ -7,8 +7,8 @@
   <tr>
     <td>1</td>
     <td style="text-align:left;">Chrome</td>
-    <td><a href='ChromeStandaloneSetup.exe' target='_blank'>√</a></td>
-    <td><a href='ChromeStandaloneSetup64.exe' target='_blank'>√</a></td>
+    <td><a href='ChromeStandaloneSetup.rar' target='_blank'>√</a></td>
+    <td><a href='ChromeStandaloneSetup64.rar' target='_blank'>√</a></td>
   </tr>
   <tr>
     <td>2</td>
