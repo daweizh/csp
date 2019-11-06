@@ -65,8 +65,12 @@
       <td style="border:0px;text-align:right"><a href='lesson03/03.1.project.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson03/2.challenge.html'>2.challenge-2016-junior-1-pencil</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson03/03.2.challenge.pdf'>pdf</a></td>
+        <a href='lesson03/2.example.html'>2.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson03/03.2.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson03/3.challenge.html'>3.challenge-2016-junior-1-pencil</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson03/03.3.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
 
