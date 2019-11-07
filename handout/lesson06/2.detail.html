@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>5.resource</title>
+<title>2.detail</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -293,75 +293,183 @@ img {
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
 </head>
 <body>
-<h1>学习资源</h1>
+<h1>实现细节</h1>
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
 </blockquote>
-<h2>网站</h2>
+<p>到目前为止游戏基本能玩了，可是仍然有很多不方便的细节问题需要解决：</p>
 <ol>
-<li>CCF官网 <a href="https://www.ccf.org.cn/">https://www.ccf.org.cn/</a></li>
-<li>NOI官网 <a href="http://www.noi.cn/">http://www.noi.cn/</a></li>
-<li>NOI旧版网站 <a href="http://history.noi.cn/">http://history.noi.cn/</a></li>
-<li>NOI辽宁官网 <a href="http://lnnoi.dlu.edu.cn/">http://lnnoi.dlu.edu.cn/</a></li>
-<li>信息学奥赛一本通做题网站一 <a href="http://noi.openjudge.cn/">http://noi.openjudge.cn/</a></li>
-<li>信息学奥赛一本通做题网站二 <a href="http://ybt.ssoier.cn:8088/">http://ybt.ssoier.cn:8088/</a></li>
-<li>CCF中学生计算机程序设计做题网站 <a href="http://oj.noi.cn/">http://oj.noi.cn/</a></li>
-<li>落谷 <a href="https://www.luogu.org/">https://www.luogu.org/</a></li>
-<li>C++ <a href="http://www.cplusplus.com/reference/">http://www.cplusplus.com/reference/</a></li>
-<li>C++菜鸟教程 <a href="https://www.runoob.com/cplusplus/cpp-tutorial.html">https://www.runoob.com/cplusplus/cpp-tutorial.html</a></li>
+<li>游戏一局结束能否继续</li>
+<li>解题的时限问题</li>
+<li>根据玩家的战绩自动升/降级问题</li>
+<li>出题难度与游戏级别对应的问题</li>
 </ol>
-<h2>图书</h2>
-<ol>
-<li>
-CCF中学生计算机程序设计系列 <br />
-<img src="images/ccf-book-1.jpg" /> <br />
-<img src="images/ccf-book-2.jpg" /> <br />
-<img src="images/ccf-book-3.jpg" />   
+<h2>选择游戏是否继续</h2>
+<p>增加</p>
+<pre><code>char repeat='y';    //游戏是否继续 
+</code></pre>
 
-</li>
-<li>
-信息学奥数一本通系列（三本） <br />
-<img src="images/ybt.jpg" />   
+<p>如图</p>
+<p><img src="images/detail-01.png" /></p>
+<p>修改main.cpp中的main函数增加游戏循环处理</p>
+<p><img src="images/detail-02.png" /></p>
+<p>按F12重新构造全部。</p>
+<p>进入命令终端，带--disp v --numb 3运行游戏程序：</p>
+<pre><code>F:\a.steam\dreamx\wedo\game\arith&gt;arith --disp v --numb 3
+Please select level([1]-18):
+Please select operator([+],-):
+Please select Hard([1]-60):
+Level=1,Operator=+,Hard=1,Disaplay=v,Number=3
+                       13
++                   10879
+-------------------------
+=3
+Error!
+                      748
++                    3916
+-------------------------
+=3
+Error!
+                     4705
++                    5360
+-------------------------
+=3
+Error!
 
-</li>
-<li>
-算法竞赛入门经典系列（三本） <br />
-<img src="images/lrj.jpg" />   
 
-</li>
-<li>
-算法竞赛进阶指南  <br />
-<img src="images/lyd.jpg" />   
+right   wrong   overtime
+---------------------------------
+0       0       0
 
-</li>
-<li>
-挑战编程-程序设计竞赛训练手册  <br />
-<img src="images/tz-lrj.jpg" />   
+score=0 bad
 
-</li>
-<li>
-挑战程序设计系列 <br />
-<img src="images/jap-1.jpg" /> <br />
-<img src="images/jap-2.jpg" />   
+Continue this game？([y]/n)
+</code></pre>
 
-</li>
-<li>
-算法图解 <br />
-<img src="images/sftj.jpg" />   
+<h2>增加计时功能</h2>
+<p>增加</p>
+<pre><code>clock_t start;      //答题开始时间 
+clock_t finish;     //答题结束时间 
+</code></pre>
 
-</li>
-<li>
-漫画算法 <br />
-<img src="images/mhsf.jpg" />   
+<p>如图：</p>
+<p><img src="images/detail-03.png" /></p>
+<p>修改main.cpp中的main函数</p>
+<p><img src="images/detail-04.png" /></p>
+<p>按F12重新构造全部。</p>
+<p>进入命令终端，带--disp v --numb 3运行游戏程序：</p>
+<pre><code>F:\a.steam\dreamx\wedo\game\arith&gt;arith --disp v --numb 3
+Please select level([1]-18):
+Please select operator([+],-):
+Please select Hard([1]-60):
+Level=1,Operator=+,Hard=1,Disaplay=v,Number=3
+                     1551
++                   27106
+-------------------------
+=4
+Time used = 1.33        =&gt;Wrong.        (28657)
 
-</li>
-</ol>
-<h2>订阅号</h2>
-<ol>
-<li>饺子片汤儿：jiaozipiantang</li>
-<li>程序员小灰：chengxuyuanxiaohui</li>
-<li>算法爱好者：AlgorithmFans</li>
-</ol>
+                    26165
++                       9
+-------------------------
+=4
+Time used = 1.98        =&gt;Wrong.        (26174)
+
+                    13206
++                   19841
+-------------------------
+=4
+Time used = 0.86        =&gt;Wrong.        (33047)
+
+
+
+right   wrong   overtime
+---------------------------------
+0       3       0
+
+score=0 bad
+
+Continue this game？([y]/n)
+</code></pre>
+
+<h2>解决游戏晋级/降级问题</h2>
+<p>在游戏重复循环结尾处增加如下代码</p>
+<p><img src="images/detail-05.png" /></p>
+<p>按F12重新构造全部。</p>
+<p>进入命令终端，带--disp v --numb 3运行游戏程序：</p>
+<pre><code>F:\a.steam\dreamx\wedo\game\arith&gt;arith --disp v --numb 3
+Please select level([1]-18):
+Please select operator([+],-):
+Please select Hard([1]-60):
+Level=1,Operator=+,Hard=1,Disaplay=v,Number=3
+                     2547
++                   28570
+-------------------------
+=4
+Time used = 1.57        =&gt;Wrong.        (31117)
+
+                     2481
++                   32056
+-------------------------
+=4
+Time used = 1.12        =&gt;Wrong.        (34537)
+
+                    13423
++                    5078
+-------------------------
+=4
+Time used = 1.15        =&gt;Wrong.        (18501)
+
+
+
+right   wrong   overtime
+---------------------------------
+0       3       0
+
+score=0 bad
+
+Continue this game？([y]/n)
+</code></pre>
+
+<h2>解决游戏级别的精准性问题</h2>
+<p>修改出题方式提高游戏级别的精准性</p>
+<p><img src="images/detail-06.png" /></p>
+<p>按F12重新构造全部。</p>
+<p>进入命令终端，带--disp v --numb 3运行游戏程序：</p>
+<pre><code>F:\a.steam\dreamx\wedo\game\arith&gt;arith --disp v --numb 3
+Please select level([1]-18):
+Please select operator([+],-):
+Please select Hard([1]-60):
+Level=1,Operator=+,Hard=1,Disaplay=v,Number=3
+                        3
++                       1
+-------------------------
+=4
+Time used = 2.92        =&gt;Right.
+
+                        0
++                       1
+-------------------------
+=1
+Time used = 2.16        =&gt;Right.
+
+                        6
++                       5
+-------------------------
+=11
+Time used = 1.48        =&gt;Right.
+
+
+
+right   wrong   overtime
+---------------------------------
+3       0       0
+
+score=100       king
+
+Continue this game？([y]/n)
+</code></pre>
+
 
 </body>
 </html>
