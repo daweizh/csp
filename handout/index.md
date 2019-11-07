@@ -85,8 +85,12 @@
       <td style="border:0px;text-align:right"><a href='lesson04/04.2.core.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson04/3.challenge.html'>3.challenge-2015-junior-1-coin</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson04/04.3.challenge.pdf'>pdf</a></td>
+        <a href='lesson04/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson04/04.3.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson04/4.challenge.html'>4.challenge-2015-junior-1-coin</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson04/04.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
 
@@ -101,7 +105,11 @@
       <td style="border:0px;text-align:right"><a href='lesson05/05.2.params.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson05/3.challenge.html'>3.challenge-2014-junior-1-count</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson05/05.3.challenge.pdf'>pdf</a></td>
+        <a href='lesson05/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson05/05.3.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson05/4.challenge.html'>4.challenge-2014-junior-1-count</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson05/05.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>

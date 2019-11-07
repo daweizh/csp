@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>3.challenge</title>
+<title>3.example</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -293,62 +293,101 @@ img {
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66482615" charset="UTF-8"></script>
 </head>
 <body>
-<h1>Coin</h1>
-<p>NOIP2015年普及组第一题。</p>
-<h2>问题描述</h2>
-<p>国王将金币作为工资，发放给忠诚的骑士。
-第一天，骑士收到一枚金币；之后两天（第二天和第三天），每天收到两枚金币；
-之后三天（第四、五、六天），每天收到三枚金币；
-之后四天（第七、八、九、十天），每天收到四枚金币……；
-这种工资发放模式会一直这样延续下去：
-当连续 N 天每天收到 N 枚金币后，骑士会在之后的连续 N+1 天里，每天收到 N+1 枚金币。</p>
-<p>请计算在前 K 天里，骑士一共获得了多少金币。</p>
-<h2>输入格式</h2>
-<ul>
-<li>输入文件名为 coin.in。</li>
-<li>输入文件只有 1 行，包含一个正整数 K，表示发放金币的天数。</li>
-</ul>
-<h2>输出格式</h2>
-<ul>
-<li>输出文件名为 coin.out。</li>
-<li>输出文件只有 1 行，包含一个正整数，即骑士收到的金币数。</li>
-</ul>
-<h2>输入输出样例1</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>6</td><td valign="top">14</td></tr>
-</table>
-<p>骑士第一天收到一枚金币；
-第二天和第三天，每天收到两枚金币；
-第四、五、六天，每天收到三枚金币。
-因此一共收到 1+2+2+3+3+3=14 枚金币。</p>
-<h2>输入输出样例2</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>1000</td><td valign="top">29820</td></tr>
-</table>
-<h2>数据说明</h2>
-<p>对于100%的数据，1 ≤ K ≤ 10,000。</p>
-<h2>参考代码</h2>
+<h2>Example 1</h2>
+<p>输入两个正整数a和b，试交换a、b的值（使a的值等于b，b的值等于a）。</p>
 <pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
 using namespace std;
 
 int main(){
-    int d,i,m=0;
+    int a,b,c;
     
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        m = m + i*i;
-        d = d - i;
-    }
-    m = m + i * d;
-    
-    cout &lt;&lt; m &lt;&lt; endl;
+    cout &lt;&lt; &quot;Input a b=&quot;;
+    cin &gt;&gt; a &gt;&gt; b;
+    c=a;
+    a=b;
+    b=c;
+    cout &lt;&lt; &quot;a=&quot; &lt;&lt; a &lt;&lt; &quot; b=&quot; &lt;&lt; b &lt;&lt; endl;
     
     return 0;
-}
+} 
 </code></pre>
 
+<h2>Example 2</h2>
+<p>输入圆柱体的地面半径r和高h，输出圆柱体的表面积，保留3位小数。</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+
+int main(){
+    const double pi=3.1415926;
+    double r,h,s1,s2,s;
+    
+    scanf(&quot;%lf%lf&quot;,&amp;r,&amp;h);
+    s1=pi*r*r;
+    s2=2*pi*r*r;
+    s=2*s1+s2;
+    printf(&quot;Area=%0.3lf \n&quot;,s);
+    
+    return 0;
+} 
+</code></pre>
+
+<h2>Example 3</h2>
+<p>数学中经典的“鸡兔同笼”问题，已知头共30个，脚共90只，问笼中的鸡和兔各多少只？</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+
+int main(){
+    int h=30,f=90,j,t;
+    
+    j=(4*h-f)/2;
+    t=h-j;
+    cout &lt;&lt; &quot;j=&quot; &lt;&lt; j &lt;&lt; &quot; t=&quot; &lt;&lt; t &lt;&lt; endl;    
+    
+    getchar();
+    
+    return 0;
+} 
+</code></pre>
+
+<h2>Exercise 1</h2>
+<ol>
+<li>A+B问题，<a href="http://noi.openjudge.cn/ch0103/01/">http://noi.openjudge.cn/ch0103/01/</a></li>
+<li>计算(a+b)*c的值，<a href="http://noi.openjudge.cn/ch0103/02/">http://noi.openjudge.cn/ch0103/02/</a></li>
+<li>计算(a+b)/c的值，<a href="http://noi.openjudge.cn/ch0103/03/">http://noi.openjudge.cn/ch0103/03/</a></li>
+<li>带余除法，<a href="http://noi.openjudge.cn/ch0103/04/">http://noi.openjudge.cn/ch0103/04/</a></li>
+<li>计算分数的浮点数值，<a href="http://noi.openjudge.cn/ch0103/05/">http://noi.openjudge.cn/ch0103/05/</a></li>
+</ol>
+<h2>Example 4</h2>
+<p>输入半径r，求圆的周长及面积。</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+const double PI=3.1415926;
+
+int main(){
+    float r,c,s;
+    
+    printf(&quot;r=&quot;);
+    scanf(&quot;%f&quot;,&amp;r);
+    c=2*PI*r;
+    s=PI*r*r;
+    printf(&quot;c=%.2f,s=%.2f \n&quot;,c,s);
+    
+    return 0;
+} 
+</code></pre>
+
+<h2>Exercise 2</h2>
+<ol>
+<li>甲流疫情死亡率，<a href="http://noi.openjudge.cn/ch0103/06/">http://noi.openjudge.cn/ch0103/06/</a></li>
+<li>计算多项式的值，<a href="http://noi.openjudge.cn/ch0103/07/">http://noi.openjudge.cn/ch0103/07/</a></li>
+<li>温度表达转化，<a href="http://noi.openjudge.cn/ch0103/08/">http://noi.openjudge.cn/ch0103/08/</a></li>
+<li>与圆相关的计算，<a href="http://noi.openjudge.cn/ch0103/09/">http://noi.openjudge.cn/ch0103/09/</a></li>
+<li>计算并联电阻的阻值，<a href="http://noi.openjudge.cn/ch0103/10/">http://noi.openjudge.cn/ch0103/10/</a></li>
+</ol>
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
 </blockquote>
