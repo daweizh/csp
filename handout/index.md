@@ -113,3 +113,23 @@
       <td style="border:0px;text-align:right"><a href='lesson05/05.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
+
+<table style="border:0px;width:100%;">
+  <tr><th style="border:0px;text-align:left">06. lesson 06</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson06/1.display.html'>1.display</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson06/06.1.display.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson06/2.detail.html'>2.detail</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson06/06.2.detail.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson06/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson06/06.3.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson06/4.challenge.html'>4.challenge-2013-junior-1-count</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson06/06.4.challenge.pdf'>pdf</a></td>
+  </tr>
+</table>
