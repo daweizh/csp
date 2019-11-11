@@ -36,6 +36,17 @@
       </td>
   </tr>
 
+  <tr><th style="border:0px;text-align:left">03. lesson 03</th>
+      <td style="border:0px;text-align:right">
+        <a href='lesson03/lesson03-1.mp4' target='_blank'>01</a>， 
+        <a href='lesson03/lesson03-2.mp4' target='_blank'>02</a>， 
+        <a href='lesson03/lesson03-3.mp4' target='_blank'>03</a>， 
+        <a href='lesson03/lesson03-4.mp4' target='_blank'>04</a>， 
+        <a href='lesson03/lesson03-5.mp4' target='_blank'>05</a>， 
+        <a href='lesson03/lesson03-6.mp4' target='_blank'>06</a> 
+      </td>
+  </tr>
+
 </table>
 
 
