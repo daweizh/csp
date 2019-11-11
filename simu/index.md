@@ -5,13 +5,20 @@
 <table>
   <tr>
     <th>年份</th><th>初赛</th><th>复赛</th><th>模拟</th><th>测评</th><th>密码</th></tr>
+  <tr><td>2018</td>
+    <td></td>
+    <td><a href='1.cspj/junior-rep-23-2017-C++.zip' target='_blank'>下载</a></td>
+    <td><a href='1.cspj/junior-sim-23-2017-C++.zip' target='_blank'>下载</a></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
     <td>2017</td>
     <td><a href='1.cspj/junior-23-C++2017-pre.html' target='_blank'>测试</a></td>
     <td><a href='1.cspj/junior-rep-23-2017-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-sim-23-2017-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-rep-23-2017-arbiter.zip' target='_blank'>下载</a></td>
-    <td><a href='1.cspj/junior-psw-23-2017-C++.png' target='_blank'>查看</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>2016</td>
@@ -89,6 +96,24 @@
 
 ## NOIP 提高组
 
+<table>
+  <tr>
+    <th>年份</th><th>初赛</th><th>复赛</th><th>模拟</th><th>测评</th></tr>
+  <tr><td>2018</td>
+    <td></td>
+    <td><a href='2.csps/senior-rep-24-2018-C++.zip' target='_blank'>下载</a></td>
+    <td><a href='2.csps/senior-sim-24-2018-C++.zip' target='_blank'>下载</a></td>
+    <td></td>
+  </tr>
+  <tr><td>2017</td>
+    <td></td>
+    <td><a href='2.csps/senior-rep-23-2017-C++.zip' target='_blank'>下载</a></td>
+    <td><a href='2.csps/senior-sim-23-2017-C++.zip' target='_blank'>下载</a></td>
+    <td></td>
+  </tr>
+  
+</table>
+
 
 ## CSP-J
 
@@ -108,16 +133,3 @@
 
 ## CSP-S
 
-<table>
-  <tr>
-    <th>年份</th><th>初赛</th><th>复赛</th><th>模拟</th><th>测评</th><th>密码</th></tr>
-  <tr>
-    <td>2018</td>
-    <td></td>
-    <td><a href='2.csps/senior-rep-24-2018-C++.zip' target='_blank'>下载</a></td>
-    <td><a href='2.csps/senior-sim-24-2018-C++.zip' target='_blank'>下载</a></td>
-    <td></td>
-    <td><a href='2.csps/psw-lns-002018.png' target='_blank'>查看</a></td>
-  </tr>
-  
-</table>
