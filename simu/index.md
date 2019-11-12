@@ -34,7 +34,7 @@
     <td><a href='1.cspj/junior-rep-21-2015-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-sim-21-2015-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-rep-21-2015-arbiter.zip' target='_blank'>下载</a></td>
-    <td><a href='1.cspj/junior-psw-21-2015-C++.png' target='_blank'>查看</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>2014</td>
@@ -42,7 +42,7 @@
     <td><a href='1.cspj/junior-rep-20-2014-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-sim-20-2014-C++.zip' target='_blank'>下载</a></td>
     <td><a href='1.cspj/junior-rep-20-2014-arbiter.zip' target='_blank'>下载</a></td>
-    <td><a href='1.cspj/junior-psw-20-2014-C++.png' target='_blank'>查看</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>2013</td>
@@ -115,6 +115,18 @@
     <td></td>
     <td><a href='2.csps/senior-rep-22-2016-C++.zip' target='_blank'>下载</a></td>
     <td><a href='2.csps/senior-sim-22-2016-C++.zip' target='_blank'>下载</a></td>
+    <td></td>
+  </tr>
+  <tr><td>2015</td>
+    <td></td>
+    <td><a href='2.csps/senior-rep-21-2015-C++.zip' target='_blank'>下载</a></td>
+    <td><a href='2.csps/senior-sim-21-2015-C++.zip' target='_blank'>下载</a></td>
+    <td></td>
+  </tr>
+  <tr><td>2014</td>
+    <td></td>
+    <td><a href='2.csps/senior-rep-20-2014-C++.zip' target='_blank'>下载</a></td>
+    <td><a href='2.csps/senior-sim-20-2014-C++.zip' target='_blank'>下载</a></td>
     <td></td>
   </tr>
   
