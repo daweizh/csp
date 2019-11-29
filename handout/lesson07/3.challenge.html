@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>4.challenge</title>
+<title>3.challenge</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,185 +291,58 @@ img {
 </style>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66487575" charset="UTF-8"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 </head>
 <body>
-<h1>Coin</h1>
-<p>NOIP2015年普及组第一题。</p>
+<h1>Number</h1>
+<p>NOIP2019年普及组第一题。</p>
 <h2>问题描述</h2>
-<p>国王将金币作为工资，发放给忠诚的骑士。
-第一天，骑士收到一枚金币；之后两天（第二天和第三天），每天收到两枚金币；
-之后三天（第四、五、六天），每天收到三枚金币；
-之后四天（第七、八、九、十天），每天收到四枚金币……；
-这种工资发放模式会一直这样延续下去：
-当连续 N 天每天收到 N 枚金币后，骑士会在之后的连续 N+1 天里，每天收到 N+1 枚金币。</p>
-<p>请计算在前 K 天里，骑士一共获得了多少金币。</p>
+<p>小K同学向小P同学发送了一个长度为8的01字符串来玩数字游戏，小P同学想要知道字符串中究竟有多少个1。</p>
+<p>注意：01字符串为每一个字符是0或者1的字符串，如“101”（不含双引号）为一个长度为3的 01字符串。</p>
 <h2>输入格式</h2>
 <ul>
-<li>输入文件名为 coin.in。</li>
-<li>输入文件只有 1 行，包含一个正整数 K，表示发放金币的天数。</li>
+<li>输入文件名为 number.in。</li>
+<li>输入文件只有一行，一个长度为8的01字符串。</li>
 </ul>
 <h2>输出格式</h2>
 <ul>
-<li>输出文件名为 coin.out。</li>
-<li>输出文件只有 1 行，包含一个正整数，即骑士收到的金币数。</li>
+<li>输出文件名为number.out。</li>
+<li>输出文件只有一行，包含一个整数，即01字符串中字符1的个数。</li>
 </ul>
 <h2>输入输出样例1</h2>
 <table>
 <tr><th>输入</th><th>输出</th></tr>
-<tr><td>6</td><td valign="top">14</td></tr>
+<tr><td>00010100</td><td valign="top">2</td></tr>
 </table>
-<p>骑士第一天收到一枚金币；
-第二天和第三天，每天收到两枚金币；
-第四、五、六天，每天收到三枚金币。
-因此一共收到 1+2+2+3+3+3=14 枚金币。</p>
 <h2>输入输出样例2</h2>
 <table>
 <tr><th>输入</th><th>输出</th></tr>
-<tr><td>1000</td><td valign="top">29820</td></tr>
+<tr><td>11111111</td><td valign="top">8</td></tr>
 </table>
 <h2>数据说明</h2>
-<p>对于100%的数据，1 ≤ K ≤ 10,000。</p>
+<ul>
+<li>对于20%的数据，保证输入的字符全部为0。</li>
+<li>对于100%的数据，输入只可能包含字符0和字符1，字符串长度固定为8。</li>
+</ul>
 <h2>参考代码</h2>
-<ol>
-<li>
-<p>模拟for循环</p>
 <pre><code>#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
 using namespace std;
 
-int main(){
-    int d,i,m=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        m = m + i*i;
-        d = d - i;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>模拟while循环</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
+char s[10];
+int cnt = 0;
 
 int main(){
-    int d,i=1,m=0;
-
-    cin &gt;&gt; d;
-    while(i&lt;d){
-        m = m + i*i;
-        d = d - i;
-        i++;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
+    gets(s);
+    for(int i=0;i&lt;8;i++)
+        if(s[i]=='1')
+            cnt ++;
+    cout &lt;&lt; cnt &lt;&lt; endl;
+    return 0;   
 }
+
 </code></pre>
 
-</li>
-<li>
-<p>直接公式法</p>
-<pre><code>#include &lt;iostream&gt;
-#include &lt;cmath&gt;
-using namespace std;
-
-int main(){
-    double d;
-    int z=0,m=0;
-
-    cin &gt;&gt; d;
-    z = (sqrt(1+8*d)-1)/2;
-    m = z*(z+1)*(2*z+1)/6;
-    m = m + (d-(z+z*z)/2) * (z+1);
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>公式判断法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    do{
-        i++;
-        z = (1+i)*i/2;
-        m = m + i*i;
-    }while(z&lt;d);
-    m = m + (d-z) * i;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>暴力求解法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        z = (1+i)*i/2;
-        m = m + i*i;
-        if(z&gt;=d) break;
-    }
-    m = m + (d-z) * i;    
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>二分优化法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,z,left=1,right,mid,m;
-    cin &gt;&gt; d;
-
-    right = d;
-    while(left&lt;=right){
-        mid = (left+right)/2;
-        z = (mid+1)*mid/2;
-        if(z&lt;d) left = mid+1;
-        else right = mid-1;
-    }
-    z = (1+left) * left /2;
-    m = left * (left+1)*(2*left+1)/6 +(d-z) * left;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-</ol>
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
 </blockquote>

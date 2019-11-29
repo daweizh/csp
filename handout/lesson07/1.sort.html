@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>4.challenge</title>
+<title>1.sort</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,185 +291,171 @@ img {
 </style>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66487575" charset="UTF-8"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 </head>
 <body>
-<h1>Coin</h1>
-<p>NOIP2015年普及组第一题。</p>
-<h2>问题描述</h2>
-<p>国王将金币作为工资，发放给忠诚的骑士。
-第一天，骑士收到一枚金币；之后两天（第二天和第三天），每天收到两枚金币；
-之后三天（第四、五、六天），每天收到三枚金币；
-之后四天（第七、八、九、十天），每天收到四枚金币……；
-这种工资发放模式会一直这样延续下去：
-当连续 N 天每天收到 N 枚金币后，骑士会在之后的连续 N+1 天里，每天收到 N+1 枚金币。</p>
-<p>请计算在前 K 天里，骑士一共获得了多少金币。</p>
-<h2>输入格式</h2>
-<ul>
-<li>输入文件名为 coin.in。</li>
-<li>输入文件只有 1 行，包含一个正整数 K，表示发放金币的天数。</li>
-</ul>
-<h2>输出格式</h2>
-<ul>
-<li>输出文件名为 coin.out。</li>
-<li>输出文件只有 1 行，包含一个正整数，即骑士收到的金币数。</li>
-</ul>
-<h2>输入输出样例1</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>6</td><td valign="top">14</td></tr>
-</table>
-<p>骑士第一天收到一枚金币；
-第二天和第三天，每天收到两枚金币；
-第四、五、六天，每天收到三枚金币。
-因此一共收到 1+2+2+3+3+3=14 枚金币。</p>
-<h2>输入输出样例2</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>1000</td><td valign="top">29820</td></tr>
-</table>
-<h2>数据说明</h2>
-<p>对于100%的数据，1 ≤ K ≤ 10,000。</p>
-<h2>参考代码</h2>
+<h1>排序算法</h1>
+<h2>1. 冒泡排序 (Bubble Sort)</h2>
+<p><img src="images/sort-bubble.gif" /></p>
+<pre><code>void bubble(int a[],int length){    
+    for(int i=length-1;i&gt;=1;i--){   //n-1轮冒泡，n-1,n-2,...,1 
+        for(int j=0;j&lt;i;j++){       //冒泡的次数0,1,...,i-1 
+            if(a[j]&gt;a[j+1]){        //如果前面的大于后面的交换(从小到大)
+                int tmp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = tmp; 
+            }
+        }
+    }
+}
+</code></pre>
+
+<h2>2. 选择排序 (Selection Sort)</h2>
+<p><img src="images/sort-selection.gif" /></p>
+<pre><code>void selection(int a[],int length){
+    for(int i=0;i&lt;length;i++){          //找位置
+        int k=i; 
+        for(int j=i+1;j&lt;length;j++){    //找包括i在内的最小的 
+            if(a[j]&lt;a[k])
+                k = j;
+        }
+        if(k!=i){                       //把找到的最小的交换到i位置 
+            int temp = a[i];
+            a[i] = a[k];
+            a[k] = temp;
+        }
+    }
+}
+</code></pre>
+
+<h2>3. 插入排序 (Insertion Sort)</h2>
+<p><img src="images/sort-insertion.gif" /></p>
+<pre><code>void insertion(int a[],int length){
+    int j,k;
+    for(int i=0;i&lt;length;i++){
+        for(j=i-1;j&gt;=0;j--)
+            if(a[j]&lt;a[i])
+                break;
+        if(j!=i-1){
+            int temp=a[i];
+            for(k=i-1;k&gt;j;k--)
+                a[k+1] = a[k];
+            a[k+1] = temp;
+        }
+    }
+}
+</code></pre>
+
+<h2>4. 希尔排序 (Shell Sort)</h2>
+<p><img src="images/sort-shell.gif" /></p>
+<p>shell排序实际上是一种直接插入排序推广，其基本原理为其先将一组数分成若干组；
+此处应该注意，分组的方式不能几个几个紧挨着分组，而是采用每次所分组数均为素数且最后一次分组为1的方法。
+采用分组的好处是，在每次排序完后都是将小的数尽量往前面赶，大的数尽量往后面赶，最后一次排序直接采用直接插入排序。
+运用到了直接插入排序越有序有快的特性。</p>
+<p>例如12、5、9、34、6、8、33、56、89、0、7、4、22、55、77的排序步骤如下：</p>
+<p><img src="images/shell.png" /></p>
+<pre><code>void shell(int a[],int length){
+    int drr[] = {5,3,1};
+    int lend = sizeof(drr)/sizeof(drr[0]);
+    for(int i=0;i&lt;lend;i++){
+        int gap = drr[i];
+        for(int j = gap;j&lt;length;j++){
+            int temp = a[j];
+            int k = 0;
+            for(k = j-gap;k &gt;= 0;k-=gap){
+                if(a[k] &gt; temp)
+                    a[k+gap] = a[k];
+                else
+                    break;
+            }
+            a[k+gap] = temp;
+        }
+    }
+    
+}
+</code></pre>
+
+<h2>5. 快速排序 (Quick Sort)</h2>
+<p><img src="images/sort-quick.gif" /></p>
+<pre><code>void quick(int a[],int left,int right){
+    int mid,l=left,r=right,temp;
+    
+    mid = a[(l+r)/2];
+    do{
+        while(a[l]&lt;mid) l++;    //在左半部找比mid大的数 
+        while(a[r]&gt;mid) r--;    //在右半部找比mid小的数 
+        if(l&lt;=r){
+            temp = a[l];
+            a[l] = a[r];
+            a[r] = temp;
+            l++;
+            r--;
+        }       
+    }while(l&lt;=r);
+
+    if(left&lt;r) quick(a,left,r);
+    if(l&lt;right) quick(a,l,right);
+}
+
+</code></pre>
+
+<h2>6. 并归排序 (Merge Sort)</h2>
+<p><img src="images/sort-merge.gif" /></p>
+<h2>7. 堆排序 (Heap Sort)</h2>
+<p><img src="images/sort-heap-max.jpg" /></p>
+<p><img src="images/sort-heap-min.jpg" /></p>
+<p><img src="images/sort-heap.gif" /></p>
+<h2>8. 计数排序 (Counting Sort)</h2>
+<p><img src="images/sort-counting.gif" /></p>
+<h2>9. 桶排序 (Bucket Sort)</h2>
+<p><img src="images/sort-bucket.gif" /></p>
+<pre><code>void bucket(int a[],int length,int maxn){
+    int b[maxn+1];
+    memset(b,0,sizeof(b));
+    for(int i=0;i&lt;length;i++)
+        b[a[i]]++;
+    int p=0;
+    for(int i=0;i&lt;=maxn;i++)
+        while(b[i]&gt;0){
+            a[p++] = i;
+            b[i] --;
+        }
+}
+</code></pre>
+
+<h2>10. 基数排序 (Radix Sort)</h2>
+<p><img src="images/sort-radix-lsd.gif" /></p>
+<h2>11. 特别的冒泡排序——鸡尾酒排序 (Cocktail Sort)</h2>
+<p><img src="images/sort-cocktail.gif" /></p>
+<h2>12. 排序算法比较</h2>
 <ol>
 <li>
-<p>模拟for循环</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,i,m=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        m = m + i*i;
-        d = d - i;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
+O(n²)的排序算法
+<ul>
+<li>冒泡排序</li>
+<li>选择排序</li>
+<li>插入排序</li>
+<li>希尔排序</li>
+</ul>
 </li>
 <li>
-<p>模拟while循环</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,i=1,m=0;
-
-    cin &gt;&gt; d;
-    while(i&lt;d){
-        m = m + i*i;
-        d = d - i;
-        i++;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
+O(n log n) 的排序算法
+<ul>
+<li>并归排序</li>
+<li>快速排序</li>
+<li>堆排序</li>
+</ul>
 </li>
 <li>
-<p>直接公式法</p>
-<pre><code>#include &lt;iostream&gt;
-#include &lt;cmath&gt;
-using namespace std;
-
-int main(){
-    double d;
-    int z=0,m=0;
-
-    cin &gt;&gt; d;
-    z = (sqrt(1+8*d)-1)/2;
-    m = z*(z+1)*(2*z+1)/6;
-    m = m + (d-(z+z*z)/2) * (z+1);
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>公式判断法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    do{
-        i++;
-        z = (1+i)*i/2;
-        m = m + i*i;
-    }while(z&lt;d);
-    m = m + (d-z) * i;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>暴力求解法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        z = (1+i)*i/2;
-        m = m + i*i;
-        if(z&gt;=d) break;
-    }
-    m = m + (d-z) * i;    
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>二分优化法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,z,left=1,right,mid,m;
-    cin &gt;&gt; d;
-
-    right = d;
-    while(left&lt;=right){
-        mid = (left+right)/2;
-        z = (mid+1)*mid/2;
-        if(z&lt;d) left = mid+1;
-        else right = mid-1;
-    }
-    z = (1+left) * left /2;
-    m = left * (left+1)*(2*left+1)/6 +(d-z) * left;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
+线性的排序算法
+<ul>
+<li>计数排序</li>
+<li>桶排序</li>
+<li>基数排序</li>
+</ul>
 </li>
 </ol>
+<p><img src="images/sort.jpg" /></p>
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
 </blockquote>

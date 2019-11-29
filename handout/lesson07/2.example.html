@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>4.challenge</title>
+<title>2.example</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -291,184 +291,38 @@ img {
 </style>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=66487575" charset="UTF-8"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 </head>
 <body>
-<h1>Coin</h1>
-<p>NOIP2015年普及组第一题。</p>
-<h2>问题描述</h2>
-<p>国王将金币作为工资，发放给忠诚的骑士。
-第一天，骑士收到一枚金币；之后两天（第二天和第三天），每天收到两枚金币；
-之后三天（第四、五、六天），每天收到三枚金币；
-之后四天（第七、八、九、十天），每天收到四枚金币……；
-这种工资发放模式会一直这样延续下去：
-当连续 N 天每天收到 N 枚金币后，骑士会在之后的连续 N+1 天里，每天收到 N+1 枚金币。</p>
-<p>请计算在前 K 天里，骑士一共获得了多少金币。</p>
-<h2>输入格式</h2>
-<ul>
-<li>输入文件名为 coin.in。</li>
-<li>输入文件只有 1 行，包含一个正整数 K，表示发放金币的天数。</li>
-</ul>
-<h2>输出格式</h2>
-<ul>
-<li>输出文件名为 coin.out。</li>
-<li>输出文件只有 1 行，包含一个正整数，即骑士收到的金币数。</li>
-</ul>
-<h2>输入输出样例1</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>6</td><td valign="top">14</td></tr>
-</table>
-<p>骑士第一天收到一枚金币；
-第二天和第三天，每天收到两枚金币；
-第四、五、六天，每天收到三枚金币。
-因此一共收到 1+2+2+3+3+3=14 枚金币。</p>
-<h2>输入输出样例2</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>1000</td><td valign="top">29820</td></tr>
-</table>
-<h2>数据说明</h2>
-<p>对于100%的数据，1 ≤ K ≤ 10,000。</p>
-<h2>参考代码</h2>
+<h2>Example 3.1</h2>
+<p>读入一个整数a，如果a为偶数在屏幕上输出yes。</p>
+<h2>Example 3.2</h2>
+<p>读入一个数，若这个数大于1并且小于100，则输出yes。</p>
+<h2>Example 3.3</h2>
+<p>输入三个整数，按从大到小的顺序输出。</p>
+<h2>Example 3.4</h2>
+<p>输入温度t的值，判断是否适合晨练。（25&lt;=t&lt;=30，则适合晨练ok，否则不适合no）</p>
+<h2>Example 3.5</h2>
+<p>输入三个数，输出其中最大的数。</p>
+<h2>Example 3.6</h2>
+<p>乘坐飞机时，当乘客行李小于等于20公斤时，按每公斤1.68元收费，大于20公斤时，按每公斤1.98元收费，编程计算收费（保留2位小数）。</p>
+<h2>Exercise 1</h2>
 <ol>
-<li>
-<p>模拟for循环</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,i,m=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        m = m + i*i;
-        d = d - i;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>模拟while循环</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,i=1,m=0;
-
-    cin &gt;&gt; d;
-    while(i&lt;d){
-        m = m + i*i;
-        d = d - i;
-        i++;
-    }
-    m = m + i * d;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>直接公式法</p>
-<pre><code>#include &lt;iostream&gt;
-#include &lt;cmath&gt;
-using namespace std;
-
-int main(){
-    double d;
-    int z=0,m=0;
-
-    cin &gt;&gt; d;
-    z = (sqrt(1+8*d)-1)/2;
-    m = z*(z+1)*(2*z+1)/6;
-    m = m + (d-(z+z*z)/2) * (z+1);
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>公式判断法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    do{
-        i++;
-        z = (1+i)*i/2;
-        m = m + i*i;
-    }while(z&lt;d);
-    m = m + (d-z) * i;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>暴力求解法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,m=0,z=0,i=0;
-
-    cin &gt;&gt; d;
-    for(i=1;i&lt;d;i++){
-        z = (1+i)*i/2;
-        m = m + i*i;
-        if(z&gt;=d) break;
-    }
-    m = m + (d-z) * i;    
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
-<li>
-<p>二分优化法</p>
-<pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main(){
-    int d,z,left=1,right,mid,m;
-    cin &gt;&gt; d;
-
-    right = d;
-    while(left&lt;=right){
-        mid = (left+right)/2;
-        z = (mid+1)*mid/2;
-        if(z&lt;d) left = mid+1;
-        else right = mid-1;
-    }
-    z = (1+left) * left /2;
-    m = left * (left+1)*(2*left+1)/6 +(d-z) * left;
-
-    cout &lt;&lt; m &lt;&lt; endl;
-
-    return 0;
-}
-</code></pre>
-
-</li>
+<li>判断数正负，<a href="http://noi.openjudge.cn/ch0104/01/">http://noi.openjudge.cn/ch0104/01/</a></li>
+<li>输出绝对值，<a href="http://noi.openjudge.cn/ch0104/02/">http://noi.openjudge.cn/ch0104/02/</a></li>
+<li>奇偶数判断，<a href="http://noi.openjudge.cn/ch0104/03/">http://noi.openjudge.cn/ch0104/03/</a></li>
+<li>奇偶ASCII值判断，<a href="http://noi.openjudge.cn/ch0104/04/">http://noi.openjudge.cn/ch0104/04/</a></li>
+<li>整数大小比较，<a href="http://noi.openjudge.cn/ch0104/05/">http://noi.openjudge.cn/ch0104/05/</a></li>
+<li>判断是否为两位数，<a href="http://noi.openjudge.cn/ch0104/06/">http://noi.openjudge.cn/ch0104/06/</a></li>
+<li>收集瓶盖赢大奖，<a href="http://noi.openjudge.cn/ch0104/07/">http://noi.openjudge.cn/ch0104/07/</a></li>
+<li>判断一个数能否同时被3和5整除，<a href="http://noi.openjudge.cn/ch0104/08/">http://noi.openjudge.cn/ch0104/08/</a></li>
+<li>判断能否被3，5，7整除，<a href="http://noi.openjudge.cn/ch0104/09/">http://noi.openjudge.cn/ch0104/09/</a></li>
+<li>有一门课不及格的学生，<a href="http://noi.openjudge.cn/ch0104/10/">http://noi.openjudge.cn/ch0104/10/</a></li>
+</ol>
+<h2>参考文献</h2>
+<ol>
+<li>董永建，信息学奥数一本通（C++）第五版。</li>
+<li><a href="http://noi.openjudge.cn">http://noi.openjudge.cn</a></li>
 </ol>
 <blockquote>
 <p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>

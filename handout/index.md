@@ -133,3 +133,20 @@
       <td style="border:0px;text-align:right"><a href='lesson06/06.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
+
+
+<table style="border:0px;width:100%;">
+  <tr><th style="border:0px;text-align:left">07. lesson 07</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson07/1.sort.html'>1.sort</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson07/07.1.sort.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson07/2.example.html'>2.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson07/07.2.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson07/3.challenge.html'>3.challenge-2019-junior-1-number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson07/07.3.challenge.pdf'>pdf</a></td>
+  </tr>
+</table>
