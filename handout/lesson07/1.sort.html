@@ -401,12 +401,104 @@ img {
 
 <h2>6. 并归排序 (Merge Sort)</h2>
 <p><img src="images/sort-merge.gif" /></p>
+<pre><code>void merge(int a[],int r[],int left,int right){
+    if(left==right)
+        return ;
+    
+    int mid=(left+right)/2;
+    merge(a,r,left,mid);
+    merge(a,r,mid+1,right);
+    
+    int i=left,j=mid+1,k=left;
+    while(i&lt;=mid &amp;&amp; j&lt;=right){
+        if(a[i]&lt;=a[j]){
+            r[k]=a[i];
+            k++;
+            i++;
+        }else{
+            r[k]=a[j];
+            k++;
+            j++;    
+        }
+    }
+    while(i&lt;=mid){
+        r[k]=a[i];
+        k++;
+        i++;
+    }   
+    while(j&lt;=right){
+        r[k]=a[j];
+        k++;
+        j++;
+    }
+    for(i=left;i&lt;=right;i++)
+        a[i] = r[i];
+}
+</code></pre>
+
 <h2>7. 堆排序 (Heap Sort)</h2>
 <p><img src="images/sort-heap-max.jpg" /></p>
 <p><img src="images/sort-heap-min.jpg" /></p>
 <p><img src="images/sort-heap.gif" /></p>
+<pre><code>void adjust(int a[],int start,int end){
+    int dad = start; //父节点指针 
+    int son = dad * 2 + 1;  //子节点指针 
+    while(son&lt;=end){
+        if(son+1&lt;=end &amp;&amp; a[son]&lt;a[son+1])
+            son++;  //比较两个子节点大小，选择小的
+        if(a[dad]&gt;a[son])
+            return ;    //父节点比子节点小，调整完成
+        else{
+            int temp = a[dad];
+            a[dad]=a[son];
+            a[son]=temp;
+            dad=son;
+            son = dad *2+1;
+        } 
+    }
+}
+
+void heap(int a[],int length){
+    for(int i=length/2-1;i&gt;=0;i--) //初始化顶堆 
+        adjust(a,i,length-1);
+    for(int i=length-1;i&gt;0;i--){
+        int temp=a[0];
+        a[0]=a[i];
+        a[i]=temp;
+        adjust(a,0,i-1);    //调整堆顶 
+    }
+}
+</code></pre>
+
 <h2>8. 计数排序 (Counting Sort)</h2>
 <p><img src="images/sort-counting.gif" /></p>
+<pre><code>void counting(int a[],int length){
+    int maxn=-1;
+    
+    for(int i=0;i&lt;length;i++){
+        if(a[i]&gt;maxn)
+            maxn = a[i];
+    }
+    
+    
+    int c[maxn+10],ranked[maxn+10];
+    memset(c,0,sizeof(c));
+    memset(ranked,0,sizeof(ranked));
+        
+    for(int i=0;i&lt;length;i++)
+        c[a[i]]++;
+
+    for(int i=1;i&lt;=maxn;i++)
+        c[i] = c[i] + c[i-1];
+    
+    for(int i=length-1;i&gt;=0;i--)
+        ranked[--c[a[i]]] = a[i];
+    
+    for(int i=0;i&lt;length;i++)
+        a[i] = ranked[i];
+}
+</code></pre>
+
 <h2>9. 桶排序 (Bucket Sort)</h2>
 <p><img src="images/sort-bucket.gif" /></p>
 <pre><code>void bucket(int a[],int length,int maxn){
@@ -425,8 +517,98 @@ img {
 
 <h2>10. 基数排序 (Radix Sort)</h2>
 <p><img src="images/sort-radix-lsd.gif" /></p>
+<pre><code>int findMaxNum(int a[],int n){
+    int maxn = 0;
+    for(int i=0;i&lt;n;i++)
+        if(a[i]&gt;maxn)
+            maxn = a[i];
+    return maxn;
+}
+
+int getLoopTimes(int n){
+    int count = 1;
+    int temp = n/10;
+    while(temp!=0){
+        count ++;
+        temp =temp / 10;
+    }   
+    return count;
+}
+
+void radixSort(int a[],int n,int p){
+    int buckets[10][n];
+    memset(buckets,0xf0f0f0f0,sizeof(buckets));
+    
+    int div = 1;
+    for(int i=1;i&lt;p;i++) div = div * 10;
+
+    for(int i=0;i&lt;n;i++){
+        int row = (a[i]/div)%10;
+        for(int j=0;j&lt;n;j++){
+            if(buckets[row][j]==0xf0f0f0f0){
+                buckets[row][j]=a[i];
+                break;
+            }
+        }
+    }
+
+    int k=0;
+    for(int i=0;i&lt;10;i++){
+        for(int j=0;j&lt;n;j++){
+            if(buckets[i][j]!=0xf0f0f0f0){
+                a[k]=buckets[i][j];
+                buckets[i][j]=0xf0f0f0f0;
+                k++;
+            }else{
+                break;
+            }
+        }
+    }
+}
+
+void radix(int a[],int length){
+    int maxNum = findMaxNum(a,length);
+    int maxLoop = getLoopTimes(maxNum);
+    
+    for(int i=1;i&lt;=maxLoop;i++){
+        radixSort(a,length,i);      
+    }
+}
+</code></pre>
+
 <h2>11. 特别的冒泡排序——鸡尾酒排序 (Cocktail Sort)</h2>
 <p><img src="images/sort-cocktail.gif" /></p>
+<pre><code>
+void cocktail(int a[],int length){
+    int bottom =0,top = length-1,bound=0,temp;
+    bool swapped = true;
+    
+    while(swapped){
+        swapped = false;
+        for(int i=bottom;i&lt;top;i++){ //由底向上冒 
+            if(a[i]&gt;a[i+1]){
+                temp = a[i];
+                a[i]=a[i+1];
+                a[i+1]=temp;
+                swapped = true;
+                bound = i;
+            }
+        }
+        top = bound;
+        for(int i=top;i&gt;bottom;i--){
+            if(a[i]&lt;a[i-1]){
+                temp = a[i];
+                a[i]=a[i-1];
+                a[i-1]=temp;
+                swapped = true;
+                bound = i;
+            }
+        }
+        bottom = bound;
+    }   
+}
+</code></pre>
+
 <h2>12. 排序算法比较</h2>
 <ol>
 <li>

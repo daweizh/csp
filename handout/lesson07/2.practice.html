@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>3.challenge</title>
+<title>2.practice</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -294,58 +294,6 @@ img {
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 </head>
 <body>
-<h1>Number</h1>
-<p>NOIP2019年普及组第一题。</p>
-<h2>问题描述</h2>
-<p>小K同学向小P同学发送了一个长度为8的01字符串来玩数字游戏，小P同学想要知道字符串中究竟有多少个1。</p>
-<p>注意：01字符串为每一个字符是0或者1的字符串，如“101”（不含双引号）为一个长度为3的 01字符串。</p>
-<h2>输入格式</h2>
-<ul>
-<li>输入文件名为 number.in。</li>
-<li>输入文件只有一行，一个长度为8的01字符串。</li>
-</ul>
-<h2>输出格式</h2>
-<ul>
-<li>输出文件名为number.out。</li>
-<li>输出文件只有一行，包含一个整数，即01字符串中字符1的个数。</li>
-</ul>
-<h2>输入输出样例1</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>00010100</td><td valign="top">2</td></tr>
-</table>
-<h2>输入输出样例2</h2>
-<table>
-<tr><th>输入</th><th>输出</th></tr>
-<tr><td>11111111</td><td valign="top">8</td></tr>
-</table>
-<h2>数据说明</h2>
-<ul>
-<li>对于20%的数据，保证输入的字符全部为0。</li>
-<li>对于100%的数据，输入只可能包含字符0和字符1，字符串长度固定为8。</li>
-</ul>
-<h2>参考代码</h2>
-<pre><code>#include &lt;iostream&gt;
-#include &lt;cstdio&gt;
-using namespace std;
-
-char s[10];
-int cnt = 0;
-
-int main(){
-    gets(s);
-    for(int i=0;i&lt;8;i++)
-        if(s[i]=='1')
-            cnt ++;
-    cout &lt;&lt; cnt &lt;&lt; endl;
-    return 0;   
-}
-
-</code></pre>
-
-<blockquote>
-<p>辽师张大为@<a href="https://daweizh.github.io/csp/">https://daweizh.github.io/csp/</a></p>
-</blockquote>
 
 </body>
 </html>

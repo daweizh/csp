@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>2.example</title>
+<title>3.example</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -296,16 +296,140 @@ img {
 <body>
 <h2>Example 3.1</h2>
 <p>读入一个整数a，如果a为偶数在屏幕上输出yes。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int a;
+    
+    cin &gt;&gt; a;
+    if(a%2==0)
+        cout &lt;&lt; &quot;yes&quot; &lt;&lt; endl;
+    
+    return 0;
+} 
+</code></pre>
+
 <h2>Example 3.2</h2>
 <p>读入一个数，若这个数大于1并且小于100，则输出yes。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int a;
+    
+    cin &gt;&gt; a;
+    if((a&gt;1)&amp;&amp;(a&lt;100))
+        cout &lt;&lt; &quot;yes&quot; &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
 <h2>Example 3.3</h2>
 <p>输入三个整数，按从大到小的顺序输出。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int a,b,c,temp;
+    
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    if(a&lt;b){
+        temp = a;
+        a = b;
+        b = temp;
+    }
+    if(a&lt;c){
+        temp = a;
+        a = c;
+        c = temp;
+    }
+    if(b&lt;c){
+        temp = b;
+        b = c;
+        c = temp;
+    }
+    cout &lt;&lt; a &lt;&lt; &quot; &quot; &lt;&lt; b &lt;&lt; &quot; &quot; &lt;&lt; c &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
 <h2>Example 3.4</h2>
 <p>输入温度t的值，判断是否适合晨练。（25&lt;=t&lt;=30，则适合晨练ok，否则不适合no）</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int t;
+    
+    cin &gt;&gt; t;
+    if( (t&gt;=25) &amp;&amp; (t&lt;=30))
+        cout &lt;&lt; &quot;ok!&quot; &lt;&lt; endl;
+    else
+        cout &lt;&lt; &quot;on!&quot; &lt;&lt; endl;
+        
+    return 0;
+}
+</code></pre>
+
 <h2>Example 3.5</h2>
 <p>输入三个数，输出其中最大的数。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    float a,b,c,maxn;
+    
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    if(a&gt;b &amp;&amp; a&gt;c)
+        maxn = a;
+    else if ( b&gt;a &amp;&amp; b&gt;c)
+        maxn = b;
+    else
+        maxn = c;
+    cout &lt;&lt; maxn &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    float a,b,c,maxn;
+    
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    maxn = a;
+    if(b&gt;maxn) maxn=b;
+    if(c&gt;maxn) maxn=c;
+    cout &lt;&lt; maxn &lt;&lt; endl;
+    
+    return 0;
+}
+</code></pre>
+
 <h2>Example 3.6</h2>
 <p>乘坐飞机时，当乘客行李小于等于20公斤时，按每公斤1.68元收费，大于20公斤时，按每公斤1.98元收费，编程计算收费（保留2位小数）。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    float w,s;
+    scanf(&quot;%f&quot;,&amp;w);
+    if(w&lt;=20){
+        s = w*1.68;
+    }else{
+        s = w*1.98; 
+    }
+    printf(&quot;%.2f\n&quot;,s);
+    
+    return 0;
+}
+</code></pre>
+
 <h2>Exercise 1</h2>
 <ol>
 <li>判断数正负，<a href="http://noi.openjudge.cn/ch0104/01/">http://noi.openjudge.cn/ch0104/01/</a></li>
