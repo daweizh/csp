@@ -150,7 +150,7 @@
       <td style="border:0px;text-align:right"><a href='lesson07/07.3.example.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/4.challenge.html'>4.challenge-2019-junior-1-number</a></th>
+        <a href='lesson07/4.challenge.html'>4.challenge-junior-sort-3</a></th>
       <td style="border:0px;text-align:right"><a href='lesson07/07.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
