@@ -310,6 +310,24 @@ img {
 }
 </code></pre>
 
+<p>改进的冒泡排序：</p>
+<pre><code>void bubble2(int a[],int length){
+    bool ok;
+    for(int i=length-2;i&gt;=0;i--){
+        ok = true;
+        for(int j=0;j&lt;=i;j++){
+            if(a[j]&gt;a[j+1]){
+                int tmp = a[j];
+                a[j]=a[j+1];
+                a[j+1]=tmp;
+                ok=false;
+            }
+        }
+        if(ok) break;
+    }
+}
+</code></pre>
+
 <h2>2. 选择排序 (Selection Sort)</h2>
 <p><img src="images/sort-selection.gif" /></p>
 <pre><code>void selection(int a[],int length){

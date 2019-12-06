@@ -443,6 +443,127 @@ int main(){
 <li>判断能否被3，5，7整除，<a href="http://noi.openjudge.cn/ch0104/09/">http://noi.openjudge.cn/ch0104/09/</a></li>
 <li>有一门课不及格的学生，<a href="http://noi.openjudge.cn/ch0104/10/">http://noi.openjudge.cn/ch0104/10/</a></li>
 </ol>
+<h2>Example 3.7</h2>
+<p>根据从键盘上输入的表示星期几的数字，对应输出它的英文名称。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int weekday;
+    cin &gt;&gt; weekday;
+    switch(weekday){
+        case 1: cout &lt;&lt; &quot;Monday&quot; &lt;&lt; endl; break;
+        case 2: cout &lt;&lt; &quot;Tuesday&quot; &lt;&lt; endl; break;
+        case 3: cout &lt;&lt; &quot;Wednessday&quot; &lt;&lt; endl; break;
+        case 4: cout &lt;&lt; &quot;Thursday&quot; &lt;&lt; endl; break;
+        case 5: cout &lt;&lt; &quot;Friday&quot; &lt;&lt; endl; break;
+        case 6: cout &lt;&lt; &quot;Saturday&quot; &lt;&lt; endl; break;
+        case 7: cout &lt;&lt; &quot;Sunday&quot; &lt;&lt; endl; break;
+        default: cout &lt;&lt; &quot;Input error!&quot; &lt;&lt; endl; break;
+    }
+    
+    return 0;
+}
+</code></pre>
+
+<h2>Example 3.8</h2>
+<p>一个最简单的计算器支持+，-，*，/四种运算。输入只有一行：两个参加运算的数和一个操作符（+，-，*，/)。输出运算表达式的结果。考虑下面两种情况：</p>
+<ol>
+<li>如果出现除数为0的情况，则输出：Divided by zero!</li>
+<li>如果出现无效的操作（即不为+，-，*，/之一），则输出：Invalid operator！</li>
+</ol>
+<p>输入样例：</p>
+<pre><code>34 56 +
+</code></pre>
+
+<p>输出样例：</p>
+<pre><code>90
+</code></pre>
+
+<p>样例程序：</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    float num1,num2;
+    char opt;
+    
+    cin &gt;&gt; num1 &gt;&gt; num2 &gt;&gt; opt;
+    switch(opt){
+        case '+': cout &lt;&lt; num1+num2 &lt;&lt; endl; break;
+        case '-': cout &lt;&lt; num1-num2 &lt;&lt; endl; break;
+        case '*': cout &lt;&lt; num1*num2 &lt;&lt; endl; break;
+        case '/':
+            if(num2!=0)
+                cout &lt;&lt; num1/num2 &lt;&lt; endl;
+            else
+                cout &lt;&lt; &quot;Divided by zero!&quot; &lt;&lt; endl;
+            break;
+        default: cout &lt;&lt; &quot;Invalid operator!&quot; &lt;&lt; endl;
+    }
+        
+    return 0;
+}
+</code></pre>
+
+<h2>Example 3.9</h2>
+<p>期末来临了，班长小Q决定将剩余的班费x元钱，用于购买若干支钢笔奖励给一些学习好、表现好的同学。
+已知商店里有三种钢笔，它们的单价分别为6元，5元和4元。
+小Q想买尽量多的笔（鼓励尽量多的同学），同时他又不想有剩余的钱。</p>
+<p>请你编一个程序，帮小Q制定出一种买笔的方案。</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int a,b,c,x,y;
+        
+    cin &gt;&gt; x;
+    
+    c=x/4;  //能买4元的多少只 
+    y=x%4;  //都买4元的剩余多少钱 
+    
+    switch(y){
+        case 0: //都买4元的正好 
+            a=0; 
+            b=0; 
+            break;   
+        case 1: //买4元的剩1元，少买一个4元的多买一个5元的 
+            a=0; 
+            b=1; 
+            c--; 
+            break;
+        case 2: //买4元的剩2元，少买一个4元的多买一个6元的 
+            a=1; 
+            b=0; 
+            c--; 
+            break;
+        case 3: //买4元的剩3元，少买两个4元的，多买一个5元的和一个6元的 
+            a=1; 
+            b=1; 
+            c-=2; 
+            break;
+    }
+
+    cout &lt;&lt; a &lt;&lt; &quot; &quot; &lt;&lt; b &lt;&lt; &quot; &quot; &lt;&lt; c &lt;&lt; endl;
+            
+    return 0;
+}
+</code></pre>
+
+<h2>Exercise 2</h2>
+<ol>
+<li>晶晶赴约会，<a href="http://noi.openjudge.cn/ch0104/11/">http://noi.openjudge.cn/ch0104/11/</a></li>
+<li>骑车与走路，<a href="http://noi.openjudge.cn/ch0104/12/">http://noi.openjudge.cn/ch0104/12/</a></li>
+<li>分段函数，<a href="http://noi.openjudge.cn/ch0104/13/">http://noi.openjudge.cn/ch0104/13/</a></li>
+<li>计算邮资，<a href="http://noi.openjudge.cn/ch0104/14/">http://noi.openjudge.cn/ch0104/14/</a></li>
+<li>最大数输出，<a href="http://noi.openjudge.cn/ch0104/15/">http://noi.openjudge.cn/ch0104/15/</a></li>
+<li>三角形判断，<a href="http://noi.openjudge.cn/ch0104/16/">http://noi.openjudge.cn/ch0104/16/</a></li>
+<li>判断闰年，<a href="http://noi.openjudge.cn/ch0104/17/">http://noi.openjudge.cn/ch0104/17/</a></li>
+<li>点和正方形的关系，<a href="http://noi.openjudge.cn/ch0104/18/">http://noi.openjudge.cn/ch0104/18/</a></li>
+<li>简单计算器，<a href="http://noi.openjudge.cn/ch0104/19/">http://noi.openjudge.cn/ch0104/19/</a></li>
+<li>求一元二次方程的根，<a href="http://noi.openjudge.cn/ch0104/20/">http://noi.openjudge.cn/ch0104/20/</a></li>
+<li>苹果和虫子2，<a href="http://noi.openjudge.cn/ch0104/21/">http://noi.openjudge.cn/ch0104/21/</a></li>
+</ol>
 <h2>参考文献</h2>
 <ol>
 <li>董永建，信息学奥数一本通（C++）第五版。</li>
