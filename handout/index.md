@@ -162,11 +162,11 @@
         <a href='lesson08/1.concept.html'>1.concept</a></th>
       <td style="border:0px;text-align:right"><a href='lesson08/08.1.concept.pdf'>pdf</a></td>
   </tr>
-  <!-- <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/2.practice.html'>2.practice</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.2.practice.pdf'>pdf</a></td>
-  </tr>
   <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/2.number.html'>2.number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
+  </tr>
+  <!--  <tr><th style="border:0px;text-align:left">　　
         <a href='lesson07/3.example.html'>3.example</a></th>
       <td style="border:0px;text-align:right"><a href='lesson07/07.3.example.pdf'>pdf</a></td>
   </tr>
