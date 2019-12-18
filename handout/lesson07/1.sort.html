@@ -295,6 +295,100 @@ img {
 </head>
 <body>
 <h1>排序算法</h1>
+<p>主函数</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+#include &lt;algorithm&gt;
+
+#include &quot;print.h&quot;
+#include &quot;selection.h&quot;
+#include &quot;bubble.h&quot;
+#include &quot;bubble2.h&quot;
+#include &quot;insertion.h&quot;
+#include &quot;bucket.h&quot;
+#include &quot;quick.h&quot;
+#include &quot;shell.h&quot;
+#include &quot;merge.h&quot;
+#include &quot;heap.h&quot;
+#include &quot;radix.h&quot;
+#include &quot;counting.h&quot;
+#include &quot;cocktail.h&quot;
+
+using namespace std;
+
+
+int main() {
+    int a[] = {39,6,1,8,20,40,4,4,42,18,50};
+    int len = sizeof(a)/sizeof(int);
+    int b[len];
+    printf(&quot;00.%20s &quot;,&quot;Initial Data:&quot;);
+    print(a,len);
+
+    printf(&quot;01.%20s &quot;,&quot;Selection Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    selection(b,len);
+    print(b,len);
+    
+    printf(&quot;02.%20s &quot;,&quot;Bubble Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    bubble(b,len);
+    print(b,len);
+
+    printf(&quot;03.%20s &quot;,&quot;Bubble2 Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    bubble2(b,len);
+    print(b,len);
+    
+    printf(&quot;04.%20s &quot;,&quot;Insertion Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    insertion(b,len);
+    print(b,len);
+    
+    printf(&quot;05.%20s &quot;,&quot;Bucket Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    bucket(b,len,100);
+    print(b,len);
+    
+    printf(&quot;06.%20s &quot;,&quot;Quick Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    quick(b,0,len-1);
+    print(b,len);
+    
+    printf(&quot;07.%20s &quot;,&quot;Shell Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    shell(b,len);
+    print(b,len);
+
+    printf(&quot;08.%20s &quot;,&quot;Merge Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    int r[len];
+    merge(b,r,0,len-1);
+    print(b,len);
+
+    printf(&quot;09.%20s &quot;,&quot;Heap Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    heap(b,len);
+    print(b,len);
+
+    printf(&quot;10.%20s &quot;,&quot;Radix Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    radix(b,len);
+    print(b,len);
+
+    printf(&quot;11.%20s &quot;,&quot;Counting Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    counting(b,len);
+    print(b,len);
+
+    printf(&quot;12.%20s &quot;,&quot;Cocktail Sort:&quot;);
+    memcpy(b,a,sizeof(a));
+    cocktail(b,len);
+    print(b,len);
+    
+    return 0;
+}
+</code></pre>
+
 <h2>1. 冒泡排序 (Bubble Sort)</h2>
 <p><img src="images/sort-bubble.gif" /></p>
 <pre><code>void bubble(int a[],int length){    
