@@ -295,6 +295,8 @@ img {
 </head>
 <body>
 <h1>排序算法</h1>
+<p>除主函数外，本例中每个函数一个对应名字的.h文件，在主函数使用前用#include &quot;&quot;引入。
+当然，也可以把函数体直接在main前声明而不采取#incldue的方法。</p>
 <p>主函数</p>
 <pre><code>#include &lt;iostream&gt;
 #include &lt;cstring&gt;
@@ -386,6 +388,15 @@ int main() {
     print(b,len);
     
     return 0;
+}
+</code></pre>
+
+<p>print函数</p>
+<pre><code>void print(int a[],int length){
+    printf(&quot;%d&quot;,a[0]);
+    for(int i=1;i&lt;length;i++)
+        printf(&quot;,%d&quot;,a[i]);
+    printf(&quot;\n&quot;);
 }
 </code></pre>
 
