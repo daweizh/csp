@@ -166,12 +166,12 @@
         <a href='lesson08/2.number.html'>2.number</a></th>
       <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
   </tr>
-  <!--  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.3.example.pdf'>pdf</a></td>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
   </tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/4.challenge.html'>4.challenge-junior-sort-3</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.4.challenge.pdf'>pdf</a></td>
-  </tr> -->
+        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
+  </tr>
 </table>
