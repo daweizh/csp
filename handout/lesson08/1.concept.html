@@ -491,7 +491,31 @@ int main(){
 
 </li>
 </ol>
-<h3>5.4 POJ1845 Sumdiv</h3>
+<h3>5.4 分解质因数</h3>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main(){
+    int n,i=2;
+    
+    cin &gt;&gt; n;
+    cout &lt;&lt; n &lt;&lt; &quot;=&quot;;
+    do{
+        while(n%i==0){
+            cout &lt;&lt; i;
+            n/=i;
+            if(n!=1) 
+                cout &lt;&lt; &quot;*&quot;;
+        }
+        i++;
+    }while(n!=1);
+    cout &lt;&lt;endl;
+     
+    return 0;
+}
+</code></pre>
+
+<h3>5.5 POJ1845 Sumdiv</h3>
 <p>Consider two natural numbers A and B. Let S be the sum of all natural divisors of \( A^B \).</p>
 <h4>Input</h4>
 <p>The only line contains the two natural numbers A and B, (0 &lt;= A,B &lt;= 500000000) separated by blanks.</p>
