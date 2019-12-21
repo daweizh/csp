@@ -175,3 +175,43 @@
       <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
   </tr>
 </table>
+
+<table style="border:0px;width:100%;">
+  <tr><th style="border:0px;text-align:left">09. lesson 09</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson09/1.recurrence.html'>1.recurrence</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson09/09.1.recurrence.pdf'>pdf</a></td>
+  </tr>
+  <!-- <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/2.number.html'>2.number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
+  </tr> -->
+</table>
+
+<table style="border:0px;width:100%;">
+  <tr><th style="border:0px;text-align:left">10. lesson 10</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson10/1.math.html'>1.math</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson10/10.1.math.pdf'>pdf</a></td>
+  </tr>
+  <!-- <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/2.number.html'>2.number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/3.example.html'>3.example</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
+  </tr> -->
+</table>
