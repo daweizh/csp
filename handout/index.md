@@ -182,11 +182,11 @@
         <a href='lesson09/1.recurrence.html'>1.recurrence</a></th>
       <td style="border:0px;text-align:right"><a href='lesson09/09.1.recurrence.pdf'>pdf</a></td>
   </tr>
-  <!-- <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/2.number.html'>2.number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
-  </tr>
   <tr><th style="border:0px;text-align:left">　　
+        <a href='lesson09/2.recursion.html'>2.recursion</a></th>
+      <td style="border:0px;text-align:right"><a href='lesson09/09.2.recursion.pdf'>pdf</a></td>
+  </tr>
+  <!--   <tr><th style="border:0px;text-align:left">　　
         <a href='lesson08/3.example.html'>3.example</a></th>
       <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
   </tr>
