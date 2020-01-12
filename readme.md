@@ -37,10 +37,18 @@
 
 <table style="border:0px;font-size:12px;">
   <tr>
-    <td style="border:0px;"><img src="handout/lesson00/images/zdw.jpg" width="100"></td>
-    <td style="border:0px;"><img src="handout/lesson00/images/idea.jpg" width="100"></td>
-    <td style="border:0px;"><img src="handout/lesson00/images/shl.jpg" width="100"></td>
-    <td style="border:0px;"><img src="handout/lesson00/images/xszt.jpg" width="100"></td>
+    <td style="border:0px;">
+      <img src="handout/lesson00/images/zdw.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="handout/lesson00/images/idea.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="handout/lesson00/images/shl.jpg" width="100">
+    </td>
+    <td style="border:0px;">
+      <img src="handout/lesson00/images/xszt.jpg" width="100">
+    </td>
   </tr>
   <tr>
     <th style="border:0px;">辽师张大为</th>
