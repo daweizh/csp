@@ -3,18 +3,20 @@
 ## C++算法编程&竞赛
 
 <table style="width:100%;">
-    <tr><th style="border:0px;">1</th>
-        <td style="border:0px;">学习C++算法编程的</td>
-        <td style="border:0px;text-align:right;">
-            <a href="handout/" target="_blank">讲义</a>
-        </td>
-    </tr>
-    <tr><th style="border:0px;">2</th>
-        <td style="border:0px;">与C++编程竞赛相关的</td>
-        <td style="border:0px;text-align:right;">
-            <a href="tool/" target="_blank">软件工具</a>
-        </td>
-    </tr>
+  <tr>
+    <th style="border:0px;">1</th>
+    <td style="border:0px;">学习C++算法编程的</td>
+    <td style="border:0px;text-align:right;">
+      <a href="handout/" target="_blank">讲义</a>
+    </td>
+  </tr>
+  <tr>
+    <th style="border:0px;">2</th>
+    <td style="border:0px;">与C++编程竞赛相关的</td>
+    <td style="border:0px;text-align:right;">
+      <a href="tool/" target="_blank">软件工具</a>
+    </td>
+  </tr>
 </table>
 
 <!-- - 学习C++语言的游戏小程序......<a href="game/arith32.rar" target="_blank">arith32</a>，<a href="game/arith64.rar" target="_blank">arith64</a>
@@ -27,12 +29,19 @@
 
 ## 微信扫码
 
-<table style="font-size:12px;"><tr>
+<table style="font-size:12px;">
+  <tr>
     <td><img src="handout/lesson00/images/zdw.jpg" width="100"></td>
     <td><img src="handout/lesson00/images/idea.jpg" width="100"></td>
     <td><img src="handout/lesson00/images/shl.jpg" width="100"></td>
     <td><img src="handout/lesson00/images/xszt.jpg" width="100"></td>
-</tr><tr><th>辽师张大为</th><th>智数精英</th><th>随话录</th><th>西山征途</th></tr>
+  </tr>
+  <tr>
+    <th>辽师张大为</th>
+    <th>智数精英</th>
+    <th>随话录</th>
+    <th>西山征途</th>
+  </tr>
 </table>
 
 
