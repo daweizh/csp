@@ -38,16 +38,16 @@
 <table style="border:0px;font-size:12px;">
   <tr>
     <td style="border:0px;">
-      <img src="handout/lesson00/images/zdw.jpg" width="100">
+      <img src="assets/me/img/zdw.jpg" width="100">
     </td>
     <td style="border:0px;">
-      <img src="handout/lesson00/images/idea.jpg" width="100">
+      <img src="assets/me/img/idea.jpg" width="100">
     </td>
     <td style="border:0px;">
-      <img src="handout/lesson00/images/shl.jpg" width="100">
+      <img src="assets/me/img/shl.jpg" width="100">
     </td>
     <td style="border:0px;">
-      <img src="handout/lesson00/images/xszt.jpg" width="100">
+      <img src="assets/me/img/xszt.jpg" width="100">
     </td>
   </tr>
   <tr>
