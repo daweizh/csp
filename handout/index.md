@@ -3,12 +3,15 @@
 ## 讲义&笔记
 
 <table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">00</th></tr>
-  <tr><th style="border:0px;text-align:left">　　
-      <a href='lesson00/1.intro.html'>1.intro</a>
-      <a href='lesson00/2.level.html'>2.level</a>
-      <a href='lesson00/3.pts.html'>3.pts</a>
+  <tr>
+    <th style="border:0px;text-align:left">00.
+      <a href='lesson00/1.intro.html'>1.intro</a>,
+      <a href='lesson00/2.level.html'>2.level</a>,
+      <a href='lesson00/3.pts.html'>3.pts</a>,
       <a href='lesson00/4.method.html'>4.method</a>
+    </th>
+  </tr>
+  <tr><th style="border:0px;text-align:left">　　
       <a href='lesson00/5.resource.html'>5.resource</a>
       <a href='lesson00/6.tong11.html'>6.tong11</a>
       <a href='lesson00/7.organ.html'>7.declaration</a>
