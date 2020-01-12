@@ -4,199 +4,91 @@
 
 <table style="border:0px;width:100%;">
   <tr>
-    <th style="border:0px;text-align:left">00.
-      <a href='lesson00/1.intro.html'>1.intro</a>,
-      <a href='lesson00/2.level.html'>2.level</a>,
-      <a href='lesson00/3.pts.html'>3.pts</a>,
-      <a href='lesson00/4.method.html'>4.method</a>
+    <th style="border:0px;text-align:left">00.</th><th>
+      <a href='00/1.intro.html'>1.intro</a>,
+      <a href='00/2.level.html'>2.level</a>,
+      <a href='00/3.pts.html'>3.pts</a>,
+      <a href='00/4.resource.html'>4.resource</a>
     </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-      <a href='lesson00/5.resource.html'>5.resource</a>
-      <a href='lesson00/6.tong11.html'>6.tong11</a>
-      <a href='lesson00/7.organ.html'>7.declaration</a>
+  <tr>
+    <th style="border:0px;text-align:left">01.</th><th>
+      <a href='01/1.tong11.html'>1.tong11</a>,
+      <a href='01/2.organ.html'>2.organ</a>,
+      <a href='01/3.method.html'>3.method</a>,
+      <a href='01/4.devcpp.html'>4.devcpp</a>,
     </th>
   </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">01. lesson 01</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson01/1.devcpp.html'>1.devcpp</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson01/01.1.devcpp.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">02.</th><th>
+      <a href='02/1.program.html'>1.program</a>
+      <a href='02/2.project.html'>2.project</a>
+      <a href='02/3.example.html'>3.example</a>
+      <a href='02/4.junior-2018-title.html'>4.title</a>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson01/2.challenge.html'>2.challenge-2018-junior-1-title</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson01/01.2.challenge.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">03.</th><th>
+      <a href='03/1.game.html'>1.game</a>
+      <a href='03/2.core.html'>2.core</a>
+      <a href='03/3.example.html'>3.example</a>
+      <a href='03/4.junior-2017-score.html'>4.score</a>
+    </th>
   </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">02. lesson 02</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson02/1.program.html'>1.program</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson02/02.1.program.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">04.</th><th>
+      <a href='04/1.settings.html'>1.settings</a>
+      <a href='04/2.params.html'>2.params</a>
+      <a href='04/3.example.html'>3.example</a>
+      <a href='04/4.junior-2016-pencil.html'>4.pencil</a>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson02/2.challenge.html'>2.challenge-2017-junior-1-score</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson02/02.2.challenge.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">05.</th><th>
+      <a href='05/1.display.html'>1.display</a>
+      <a href='05/2.detail.html'>2.detail</a>
+      <a href='05/3.example.html'>3.example</a>
+      <a href='05/4.junior-2015-coin.html'>4.coin</a>
+    </th>
   </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">03. lesson 03</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson03/1.project.html'>1.project</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson03/03.1.project.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">06.</th><th>
+      <a href='06/1.sort.html'>1.sort</a>
+      <a href='06/2.practice.html'>2.practice</a>
+      <a href='06/3.example.html'>3.example</a>
+      <a href='06/4.junior-2014-count.html'>4.count</a>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson03/2.example.html'>2.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson03/03.2.example.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">07.</th><th>
+      <a href='07/1.concept.html'>1.concept</a>
+      <a href='07/2.number.html'>2.number</a>
+      <a href='07/3.example.html'>3.example</a>
+      <a href='07/4.challenge.html'>4.challenge-2013-junior-1-count</a>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson03/3.challenge.html'>3.challenge-2016-junior-1-pencil</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson03/03.3.challenge.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">08.</th><th>
+      <a href='08/1.recurrence.html'>1.recurrence</a>
+      <a href='08/2.recursion.html'>2.recursion</a>
+      <a href='08/4.challenge.html'>4.challenge-junior-sort-3</a>
+    </th>
   </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">04. lesson 04</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson04/1.game.html'>1.game</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson04/04.1.game.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">09.</th><th>
+      <a href='09/1.math.html'>1.math</a>
+      <a href='09/4.challenge.html'>4.challenge-junior-number</a>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson04/2.core.html'>2.core</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson04/04.2.core.pdf'>pdf</a></td>
+  <!-- <tr>
+    <th style="border:0px;text-align:left">10.</th><th>
+    </th>
   </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson04/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson04/04.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson04/4.challenge.html'>4.challenge-2015-junior-1-coin</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson04/04.4.challenge.pdf'>pdf</a></td>
-  </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">05. lesson 05</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson05/1.settings.html'>1.settings</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson05/05.1.settings.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson05/2.params.html'>2.params</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson05/05.2.params.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson05/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson05/05.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson05/4.challenge.html'>4.challenge-2014-junior-1-count</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson05/05.4.challenge.pdf'>pdf</a></td>
-  </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">06. lesson 06</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson06/1.display.html'>1.display</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson06/06.1.display.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson06/2.detail.html'>2.detail</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson06/06.2.detail.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson06/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson06/06.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson06/4.challenge.html'>4.challenge-2013-junior-1-count</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson06/06.4.challenge.pdf'>pdf</a></td>
-  </tr>
-</table>
-
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">07. lesson 07</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/1.sort.html'>1.sort</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.1.sort.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/2.practice.html'>2.practice</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.2.practice.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson07/4.challenge.html'>4.challenge-junior-sort-3</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson07/07.4.challenge.pdf'>pdf</a></td>
-  </tr>
-</table>
-
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">08. lesson 08</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/1.concept.html'>1.concept</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.1.concept.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/2.number.html'>2.number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
-  </tr>
-</table>
-
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">09. lesson 09</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson09/1.recurrence.html'>1.recurrence</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson09/09.1.recurrence.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson09/2.recursion.html'>2.recursion</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson09/09.2.recursion.pdf'>pdf</a></td>
-  </tr>
-  <!--   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
+  <tr>
+    <th style="border:0px;text-align:left">11.</th><th>
+    </th>
   </tr> -->
 </table>
 
-<table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">10. lesson 10</th><td style="border:0px;"></td></tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson10/1.math.html'>1.math</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson10/10.1.math.pdf'>pdf</a></td>
-  </tr>
-  <!-- <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/2.number.html'>2.number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.2.number.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/3.example.html'>3.example</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.3.example.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson08/4.challenge.html'>4.challenge-junior-number</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson08/08.4.challenge.pdf'>pdf</a></td>
-  </tr> -->
-</table>
+
+
