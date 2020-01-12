@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <th style="border:0px;width:20px;">2.</th>
-    <th style="border:0px;text-align:left;">与C++编程竞赛相关的</th>
+    <th style="border:0px;text-align:left;">学习C++编程竞赛相关的</th>
     <td style="border:0px;text-align:right;">
       <a href="tool/" target="_blank">软件工具</a>
     </td>

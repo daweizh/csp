@@ -3,34 +3,16 @@
 ## 讲义&笔记
 
 <table style="border:0px;width:100%;">
-  <tr><th style="border:0px;text-align:left">00. lesson 00</th><td style="border:0px;"></td></tr>
+  <tr><th style="border:0px;text-align:left">00</th></tr>
   <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/1.intro.html'>1.intro</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.1.intro.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/2.level.html'>2.level</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.2.level.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/3.pts.html'>3.pts</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.3.pts.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/4.method.html'>4.method</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.4.method.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/5.resource.html'>5.resource</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.5.resource.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/6.tong11.html'>6.tong11</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.6.tong11.pdf'>pdf</a></td>
-  </tr>
-  <tr><th style="border:0px;text-align:left">　　
-        <a href='lesson00/7.organ.html'>7.declaration</a></th>
-      <td style="border:0px;text-align:right"><a href='lesson00/00.7.organ.pdf'>pdf</a></td>
+      <a href='lesson00/1.intro.html'>1.intro</a>
+      <a href='lesson00/2.level.html'>2.level</a>
+      <a href='lesson00/3.pts.html'>3.pts</a>
+      <a href='lesson00/4.method.html'>4.method</a>
+      <a href='lesson00/5.resource.html'>5.resource</a>
+      <a href='lesson00/6.tong11.html'>6.tong11</a>
+      <a href='lesson00/7.organ.html'>7.declaration</a>
+    </th>
   </tr>
 </table>
 
