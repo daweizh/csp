@@ -1,5 +1,5 @@
 function doHide(obj){
-  alert(obj.tagName);
+  alert(obj.nextSibling.tagName);
   if(obj.nextSibling.style.display=='block') 
     obj.nextSibling.style.display='none';
   else	
@@ -7,7 +7,7 @@ function doHide(obj){
 }
 
 function doShow(obj){
-  alert(obj.tagName);
+  alert(obj.nextSibling.tagName);
   if(obj.innerText=='+'){
     obj.nextSibling.style.display='none';
     obj.innerText = '-';
