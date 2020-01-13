@@ -6,11 +6,11 @@ function doHide(obj){
 }
 
 function doShow(obj){
-  if(obj.innerText=='+'){
+  if(obj.innerText=='[+]'){
     obj.nextSibling.style.display='block';
-    obj.innerText = '-';
+    obj.innerText = '[-]';
   }else{
     obj.nextSibling.style.display='none';
-    obj.innerText = '+';
+    obj.innerText = '[+]';
   }
 }
