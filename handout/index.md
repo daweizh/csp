@@ -72,7 +72,7 @@
       <a href='07/1.concept.html'>1.concept</a>,
       <a href='07/2.number.html'>2.number</a>,
       <a href='07/3.example.html'>3.example</a>,
-      <a href='07/4.challenge.html'>4.challenge-2013-junior-1-count</a>
+      <a href='07/4.junior-2013-count.html'>4.count</a>
     </th>
   </tr>
   <tr>
