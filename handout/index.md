@@ -11,7 +11,7 @@
       <a href='00/3.pts.html'>3.pts</a>,
       <a href='00/4.resource.html'>4.resource</a>
     </th>
-    <th style="border:0px;"><a href='00/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='00/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">01.</th>
@@ -21,7 +21,7 @@
       <a href='01/3.method.html'>3.method</a>,
       <a href='01/4.devcpp.html'>4.devcpp</a>
     </th>
-    <th style="border:0px;"><a href='01/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='01/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">02.</th>
@@ -31,7 +31,7 @@
       <a href='02/3.example.html'>3.example</a>,
       <a href='02/4.junior-2018-title.html'>4.title</a>
     </th>
-    <th style="border:0px;"><a href='02/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='02/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">03.</th>
@@ -41,7 +41,7 @@
       <a href='03/3.example.html'>3.example</a>,
       <a href='03/4.junior-2017-score.html'>4.score</a>
     </th>
-    <th style="border:0px;"><a href='03/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='03/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">04.</th>
@@ -51,7 +51,7 @@
       <a href='04/3.example.html'>3.example</a>,
       <a href='04/4.junior-2016-pencil.html'>4.pencil</a>
     </th>
-    <th style="border:0px;"><a href='04/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='04/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">05.</th>
@@ -61,7 +61,7 @@
       <a href='05/3.example.html'>3.example</a>,
       <a href='05/4.junior-2015-coin.html'>4.coin</a>
     </th>
-    <th style="border:0px;"><a href='05/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='05/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">06.</th>
@@ -71,7 +71,7 @@
       <a href='06/3.example.html'>3.example</a>,
       <a href='06/4.junior-2014-count.html'>4.count</a>
     </th>
-    <th style="border:0px;"><a href='06/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='06/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">07.</th>
@@ -81,16 +81,17 @@
       <a href='07/3.example.html'>3.example</a>,
       <a href='07/4.junior-2013-count.html'>4.count</a>
     </th>
-    <th style="border:0px;"><a href='07/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='07/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">08.</th>
     <th style="border:0px; border-bottom:1px dashed red;text-align:right">
-      <a href='08/1.recurrence.html'>1.recurrence</a>,
-      <a href='08/2.recursion.html'>2.recursion</a>,
-      <a href='08/4.junior-2006-random-2007-scholar-2009-score.html'>4.rand-schol-score</a>
+      <a href='08/1.recurrence.html'>1.rrence</a>,
+      <a href='08/2.recursion.html'>2.rrsion</a>,
+      <a href='08/3.example.html'>3.example</a>,
+      <a href='08/4.junior-2006-random-2007-scholar-2009-score.html'>4.rnd-shl-scr</a>
     </th>
-    <th style="border:0px;"><a href='08/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='08/5.progress.html'>√</a></th>
   </tr>
   <tr>
     <th style="border:0px;text-align:left">09.</th>
@@ -98,7 +99,7 @@
       <a href='09/1.math.html'>1.math</a>,
       <a href='09/4.challenge.html'>4.challenge-junior-number</a>
     </th>
-    <th style="border:0px;"><a href='09/5.progress.html'>&Xi;</a></th>
+    <th style="border:0px;"><a href='09/5.progress.html'>√</a></th>
   </tr>
   <!-- <tr>
     <th style="border:0px;text-align:left">10.</th><th>
