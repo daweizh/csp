@@ -96,8 +96,9 @@
   <tr>
     <th style="border:0px;text-align:left">09.</th>
     <th style="border:0px; border-bottom:1px dashed red;text-align:right">
-      <a href='09/1.math.html'>1.math</a>,
-      <a href='09/4.challenge.html'>4.challenge-junior-number</a>
+      <!-- <a href='09/1.math.html'>1.math</a>,
+      <a href='09/4.challenge.html'>4.challenge-junior-number</a> -->
+      <a href='09/3.example.html'>3.example</a>
     </th>
     <th style="border:0px;"><a href='09/5.progress.html'>√</a></th>
   </tr>
